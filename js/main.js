@@ -154,7 +154,7 @@ $(document).ready(function() {
         if (index == 2){
             $("#left2").vegas({
                 slides: [
-                { src:  "./img/background-left.jpg"  },
+                { src:  "./img/warehouse-sm.jpg"  },
                 ],
                 delay: 7000,
                 cover:false,
@@ -164,7 +164,7 @@ $(document).ready(function() {
             });
             $("#right2").vegas({
                 slides: [
-                { src: "./img/background-right.jpg" },
+                { src: "./img/warehouse-sm.jpg" },
                 ],
                 delay: 7000,
                 cover:false,
