@@ -229,7 +229,7 @@ body > .skiptranslate {
     margin: 0 auto;
     border: 6px solid #FEECB3;
     vertical-align: middle;
-    background-image: url("../img/image.jpg");  
+    background-image: url("../img/loader-bg.jpg");  
     background-repeat: no-repeat;
     background-position: center center;
    -webkit-background-size: cover;
@@ -241,7 +241,7 @@ body > .skiptranslate {
 
 .loader-name {
 
-    color: #3D3838;
+    color: #f8f7d9;
     font-size: 80px;
     font-weight: 800;
     text-align: center;
@@ -1293,7 +1293,7 @@ button[type="submit"]:hover {
 
     .ms-right #right2 {
 
-        background-image: url("../img/background.jpg");
+        background-image: url("../img/bg-images/team.jpg");
         background-position: center center;
         background-repeat: no-repeat;
        -webkit-background-size: cover;

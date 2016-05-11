@@ -47,7 +47,7 @@ $(document).ready(function() {
     //MULTISCROLL
     $('#main-container').multiscroll({
         sectionsColor: ['white','white','white','white','white','white'],
-        anchors: ['first','second','third','fourth','fifth','sixth'],
+        anchors: ['first','third','second','fourth','fifth','sixth'],
         easing:'easeInOutCubic',
         menu:'.menu-left',
         scrollingSpeed: 1000,
@@ -76,15 +76,15 @@ $(document).ready(function() {
     //REVERSE SECTIONS (MOBILE)
     function reverseSection() {
         if ($(window).width() <= 1024) {
-            $("#right2").insertAfter("#right1");
-            $("#right3").insertAfter("#right2");
-            $("#right4").insertAfter("#right3");
+            $("#right3").insertAfter("#right1");
+            $("#right2").insertAfter("#right3");
+            $("#right4").insertAfter("#right2");
             $("#right5").insertAfter("#right4");
             $("#right6").insertAfter("#right5");
         } else {
-            $("#right2").insertBefore("#right1");
-            $("#right3").insertBefore("#right2");
-            $("#right4").insertBefore("#right3");
+            $("#right3").insertBefore("#right1");
+            $("#right2").insertBefore("#right3");
+            $("#right4").insertBefore("#right2");
             $("#right5").insertBefore("#right4");
             $("#right6").insertBefore("#right5");
         }
@@ -154,7 +154,7 @@ $(document).ready(function() {
         if (index == 2){
             $("#left2").vegas({
                 slides: [
-                { src:  "./img/warehouse-sm.jpg"  },
+                { src:  "./img/bg-images/team.jpg"  },
                 ],
                 delay: 7000,
                 cover:false,
@@ -164,7 +164,7 @@ $(document).ready(function() {
             });
             $("#right2").vegas({
                 slides: [
-                { src: "./img/warehouse-sm.jpg" },
+                { src: "./img/bg-images/team-rt.jpg" },
                 ],
                 delay: 7000,
                 cover:false,
@@ -177,7 +177,7 @@ $(document).ready(function() {
         if (index == 3){
             $("#left3").vegas({
                 slides: [
-                { src: "./img/background-left.jpg" },
+                { src: "./img/designs/design-4.jpg" },
                 ],
                 delay: 7000,
                 cover:false,
@@ -187,7 +187,7 @@ $(document).ready(function() {
             });
             $("#right3").vegas({
                 slides: [
-                { src: "./img/background-right.jpg" },
+                { src: "./img/designs/design-4.jpg" },
                 ],
                 delay: 7000,
                 cover:false,
