@@ -151,7 +151,7 @@ $(document).ready(function() {
     //SECTION IMAGE BACKGROUND
     function sectionimage(anchorLink, index){
         //ABOUT
-        if (index == 2){
+        if (index == 3){
             $("#left2").vegas({
                 slides: [
                 { src:  "./img/bg-images/team.jpg"  },
@@ -174,7 +174,7 @@ $(document).ready(function() {
             });
         }
         //DESIGN
-        if (index == 3){
+        if (index == 2){
             $("#left3").vegas({
                 slides: [
                 { src: "./img/designs/design-4.jpg" },
