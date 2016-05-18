@@ -10,7 +10,7 @@ require('manage/wp-blog-header.php');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Roger Valerio - Deseno</title>
+    <title>Roger Valerio - Diseños</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
@@ -48,8 +48,8 @@ require('manage/wp-blog-header.php');
             <div class="center">
                 <ul>
                     <li data-menuanchor="first" class="active"><a href="#first">Inicio</a></li>
-                    <li data-menuanchor="second"><a href="#third">Desenos</a></li>
-                    <li data-menuanchor="third"><a href="#second">Perfil</a></li>
+                    <li data-menuanchor="second"><a href="#second">Perfil</a></li>
+                    <li data-menuanchor="third"><a href="#third">Diseño</a></li>
                     <li data-menuanchor="fourth"><a href="#fourth">Proyectos</a></li>
                     <li data-menuanchor="sixth"><a href="#sixth">Contacto</a></li>
                 </ul>
@@ -76,7 +76,7 @@ require('manage/wp-blog-header.php');
                         <div class="col-md-8 section-margin">
                             <div class="home-name"><span><span>ROGER</span></span></div>
                             <div class="home-sub-a"><span><span>Valerio</span></span></div>
-                            <div class="home-sub-b"><span>Deseno</span></div>
+                            <div class="home-sub-b"><span>Diseños</span></div>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ require('manage/wp-blog-header.php');
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/bg-images/design-nav.jpg)"></div> 
                         <div class="home-link">
-                            <a href="#third"><span>deseno</span></a>
+                            <a href="#third"><span>diseños</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">  
@@ -156,7 +156,7 @@ require('manage/wp-blog-header.php');
                     <div class="center">
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
-                            <h1>DESENO</h1>
+                            <h1>DISEÑO</h1>
                             <p>Roger Valerio abre como parte de su nueva estrategia corporativa el área de desarrollos urbanísticos. En esta nueva etapa, pretendemos crear proyectos de gran plusvalía utilizando diseños y conceptos modernos. De manera precisa el área de diseño y construcción se complementa para la creación de proyectos que se ajusten a las necesidades financieras de nuestros clientes.</p>
                             <div id="design-carousel">
 															<?php
@@ -170,7 +170,7 @@ require('manage/wp-blog-header.php');
                                     </a>
                                 </div>
 
-															<?
+															<?php
 																	}
 
 															?>
@@ -231,7 +231,7 @@ require('manage/wp-blog-header.php');
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
                             <h1>Perfil</h1>
-                            <div class="about-sub">Somos Disenos Managua</div>
+                            <div class="about-sub">Somos Diseños Managua</div>
                             <p>Por un poco más de dos décadas Roger Valerio Arquitectura ha estado brindando soluciones Arquitectónicas y de diseño de interiores a prestigiosos clientes en el sector hotelero, comercial, residencial, industrial en Guatemala y Nicaragua.</p>
                             <hr>
                             <ul>
@@ -244,7 +244,7 @@ require('manage/wp-blog-header.php');
                                 <div class="team-background" style="background-image: url(img/about/roger-sr-head-bg.jpg)"></div>
                                 <div class="team-image" style="background-image: url(img/about/roger-sr-head.jpg)"></div>
                                 <p class="team-name">Roger Valerio</p>
-                                <p class="team-profession">Owner/Founder</p>
+                                <p class="team-profession">Propietario/Fundador</p>
                                 <div class="team-social">
                                     <ul>
                                         <li><a href="#"><i class="ion-social-facebook"></i></a></li>
@@ -257,7 +257,7 @@ require('manage/wp-blog-header.php');
                                 <div class="team-background" style="background-image: url(img/about/roger-jr-head-bg.jpg)"></div>
                                 <div class="team-image" style="background-image: url(img/about/roger-jr-head.jpg)"></div>
                                 <p class="team-name">Roger Valerio Junior</p>
-                                <p class="team-profession">Construcion</p>
+                                <p class="team-profession">Construcción</p>
                                 <div class="team-social">
                                     <ul>
                                         <li><a href=""><i class="ion-social-facebook"></i></a></li>
@@ -282,8 +282,8 @@ require('manage/wp-blog-header.php');
                             <div id="about-popup-3" class="about-popup-options mfp-hide">
                                 <div class="team-background" style="background-image: url(img/about/marcela-head.jpg)"></div>
                                 <div class="team-image" style="background-image: url(img/about/marcela-head.jpg)"></div>
-                                <p class="team-name">MarcelaValerio</p>
-                                <p class="team-profession">Architectura</p>
+                                <p class="team-name">Marcela Valerio</p>
+                                <p class="team-profession">Arquitectura</p>
                                 <div class="team-social">
                                     <ul>
                                         <li><a href=""><i class="ion-social-facebook"></i></a></li>
@@ -306,34 +306,89 @@ require('manage/wp-blog-header.php');
                         <div class="col-md-7 section-margin">
                             <div class="section-one">
                                 <div class="border"></div>
-                                <h1>PROJECTS</h1>
+                                <h1>PROYECTOS</h1>
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p> 
                                 <div class="projects-list list-a">
                                     <ul>
-                                        <li><a class="projects-link-1"><span>Cosas - </span>Proyecto en Espanol</a></li>
-                                        <li><a class="projects-link-2"><span>Otra Cosas & Deseno - </span>Sed ut perspiciat</a></li>
+                                        <li><a class="projects-link-1"><span>Cosas - </span>Proyecto en Español</a></li>
+                                        <li><a class="projects-link-2"><span>Otra Cosas & Diseños - </span>Sed ut perspiciat</a></li>
                                         <li><a class="projects-link-3"><span>Oficina & Comercial  - </span>Otra proyecto en espanol</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="section-two p-h1 display-none">
                                 <div class="border"></div>
-                                <h1>Cosas</h1>                         
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laborum excepturi quasi suscipit, perspiciatis eligendi sit nesciunt provident quaerat cupiditate maiores pariatur iure eaque.</p>
-                                <div class="projects-list list-b">
-                                    <ul>
-                                        <li><span>Design team </span>: Marcela Valerio, Roger Valerio</li>
-                                        <li><span>Projects partners </span>: Marcel Valerio.</li>
-                                        <li><span>Client </span>: Yellew Associates.</li>
-                                        <li><span>Details </span>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nisi, iusto amet dignissimos expedita alias libero temporibus earum? Mollitia dolor illum.</li>
-                                    </ul>
-                                </div>
-                                <nav class="navigation">
-                                    <ul>
-                                        <li class="close-projects"><a class="ion-close-round"></a></li> 
-                                    </ul>
-                                </nav>
-                            </div>
+                                        <?php if( have_rows('projects' , 23) ): ?>
+
+
+                                            <?php while( have_rows('projects' , 23) ): the_row(); 
+
+                                                // vars
+                                                $nombre = get_sub_field('nombre');
+                                                $descricion = get_sub_field('descripcion');
+                                                $team = get_sub_field('equipo_de_diseno');
+                                                $companeros = get_sub_field('companeros');
+                                                $cliente = get_sub_field('cliente');
+                                                $detalle = get_sub_field('detalle');
+                                                $image = get_sub_fiel('project_image');
+
+                                                ?>
+
+                                                    <?php if ($nombre): ?>
+
+                                                       <?php echo "<h1> $nombre </h1>"; ?> 
+                                                       <?php endif ?>                   
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laborum excepturi quasi suscipit, perspiciatis eligendi sit nesciunt provident quaerat cupiditate maiores pariatur iure eaque.</p>
+                                                    <div class="projects-list list-b">
+                                                        <ul>
+
+                                                            <li>  <?php if ($equipo_de_diseno) ?>
+                                                                
+                                                                <span> Equipo de diseño</span>: <?php echo "$equipo_de_diseno"; ?>
+
+                                                            </li>
+
+
+                                                            <li>  <?php if ($companeros) ?>
+                                                                
+                                                                <span> Equipo de diseño</span>: <?php echo "$companeros"; ?>
+
+                                                            </li>
+
+                                                            <li>  <?php if ($cliente) ?>
+                                                                
+                                                                <span> Equipo de diseño</span>: <?php echo "$cliente"; ?>
+
+                                                            </li>
+
+                                                            <li>  <?php if ($detalle) ?>
+                                                                
+                                                                <span> Equipo de diseño</span>: <?php echo "$detalle"; ?>
+
+                                                            </li>
+
+                                                            <li>  <?php if ($project_image) ?>
+                                                                
+                                                                <span> Equipo de diseño</span>: <?php echo "$project_image"; ?>
+
+                                                            </li>
+
+                                                           
+                                                    </div>
+
+
+                                            <?php endwhile; ?>
+
+                                                          <nav class="navigation">
+                                                    <ul>
+                                                        <li class="close-projects"><a class="ion-close-round"></a></li> 
+                                                    </ul>
+                                                </nav>
+                                            </div>
+
+                                        <?php endif; ?>
+                               
+                                
                             <div class="section-three p-h1 display-none">
                                 <div class="border"></div>
                                 <h1>Honoré d'Urfé School Complex</h1>
@@ -469,7 +524,7 @@ require('manage/wp-blog-header.php');
                 <div class="copyright">Roger Valerio Architects - 2016 &copy;</div>
             </div><!-- END RIGHT 6 -->
     
-        </div><!-- END MS-RIGHT -->
+        </div><!-- END MS-RIGHT -->p
 
     </div><!-- END MAIN-CONTAINER -->
 
