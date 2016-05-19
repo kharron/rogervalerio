@@ -66,6 +66,12 @@ define('NONCE_SALT',       'put your unique phrase here');
 $table_prefix  = 'wp_';
 
 /**
+ * Change the Domain Below
+ **/
+define('WP_HOME','http://localhost/rogervalerio/manage/');
+define('WP_SITEURL','http://localhost/rogervalerio/manage/');
+
+/**
  * For developers: WordPress debugging mode.
  *
  * Change this to true to enable the display of notices during development.

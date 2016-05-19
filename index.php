@@ -1,7 +1,10 @@
 <?php 
 define('WP_USE_THEMES', false);
 require('manage/wp-blog-header.php');
+
+
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,8 +53,14 @@ require('manage/wp-blog-header.php');
                     <li data-menuanchor="first" class="active"><a href="#first">Inicio</a></li>
                     <li data-menuanchor="second"><a href="#second">Perfil</a></li>
                     <li data-menuanchor="third"><a href="#third">Diseño</a></li>
-                    <li data-menuanchor="fourth"><a href="#fourth">Proyectos</a></li>
-                    <li data-menuanchor="sixth"><a href="#sixth">Contacto</a></li>
+                     
+                     <li data-menuanchor="fourth"><a href="#fourth">Proyectos</a></li>
+                    <li data-menuanchor="fifth"><a href="#fifth">Desarrollo</a></li>
+
+
+                    <li data-menuanchor="sixth"><a href="#sixth">Construcción</a></li>
+                    <li data-menuanchor="seventh"><a href="#seventh">Contacto</a></li>
+
                 </ul>
             </div>
             <div class="menu-name">RV</div>
@@ -96,6 +105,9 @@ require('manage/wp-blog-header.php');
             
             <!-- LEFT 6 -->
             <div class="ms-section hide-mobile" id="left6"></div><!-- END LEFT 6 -->
+
+            <!-- LEFT 7 -->
+            <div class="ms-section hide-mobile" id="left7"></div><!-- END LEFT 7 -->
             
         </div><!-- END MS-LEFT -->
     
@@ -122,14 +134,14 @@ require('manage/wp-blog-header.php');
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/bg-images/projects-nav.jpg)"></div>
                         <div class="home-link">
-                            <a href="#fourth"><span>proyectos</span></a>
+                            <a href="#fifth"><span>Desarrollo</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">  
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/bg-images/services-nav.jpg)"></div> 
                         <div class="home-link">
-                            <a href="#fifth"><span>servicios</span></a>
+                            <a href="#sixth"><span>construccion</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">  
@@ -139,11 +151,18 @@ require('manage/wp-blog-header.php');
                             <a href="#second"><span>perfil</span></a>
                         </div>
                     </div>
+                      <div class="home-item home-height">  
+                        <div class="home-overlay"></div>
+                        <div class="home-img" style="background-image: url(img/bg-images/contact-nav.jpg)"></div>
+                        <div class="home-link">
+                            <a href="#fourth"><span>Proyectos</span></a>
+                        </div>
+                    </div>
                     <div class="home-item home-height">  
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/bg-images/contact-nav.jpg)"></div>
                         <div class="home-link">
-                            <a href="#sixth"><span>contacto</span></a>
+                            <a href="#seventh"><span>contacto</span></a>
                         </div>
                     </div>
                 </div>
@@ -223,6 +242,9 @@ require('manage/wp-blog-header.php');
                 </div> 
             </div><!-- END RIGHT 3 -->
 
+            
+
+
             <!-- RIGHT 2 -->
             <div class="ms-section show-mobile" id="right2">
                 <div class="overlay-right"></div>
@@ -296,9 +318,92 @@ require('manage/wp-blog-header.php');
                     </div>
                 </div>
             </div><!-- END RIGHT 2 -->
+
             
 
+             
+
             <!-- RIGHT 4 -->
+            <div class="ms-section show-mobile" id="right5">
+                <div class="overlay-right"></div>
+                <div class="section-services section">
+                    <div class="center">
+                        <div class="col-md-7 section-margin">
+                            <div class="border"></div>
+                            <h1>DESARROLLO</h1>
+                            <p>Roger Valerio abre como parte de su nueva estrategia corporativa el área de desarrollos urbanísticos. 
+                                En esta nueva etapa, pretendemos crear proyectos de gran plusvalía utilizando diseños y conceptos modernos.
+                                 De manera precisa el área de diseño y construcción se complementa para la creación de proyectos que se ajusten 
+                                 a las necesidades financieras de nuestros clientes.</p>
+                            <div id="services-carousel">
+                                <div class="services-item"> 
+                                    <div class="block">
+                                    <h2>Architectural Design</h2>
+                                        <div class="border"></div>
+                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+                                    </div>
+                                </div>
+                                <div class="services-item"> 
+                                    <div class="block">
+                                        <h2>Sustainable Architecture</h2>
+                                        <div class="border"></div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                                <div class="services-item"> 
+                                    <div class="block">
+                                        <h2>Space Planning Design</h2>
+                                        <div class="border"></div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                                <div class="services-item"> 
+                                    <div class="block">
+                                        <h2>Interior Design</h2>
+                                        <div class="border"></div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <nav class="navigation">
+                                <ul>
+                                    <li class="prev"><a class="prev-slide ion-arrow-left-c"></a></li> 
+                                    <li class="next"><a class="next-slide ion-arrow-right-c"></a></li> 
+                                </ul>
+                            </nav>
+                        </div>     
+                    </div> 
+                </div>
+            </div>
+            <!-- RIGHT 4 -->
+            
+            <!-- RIGHT 5 -->
+            <div class="ms-section show-mobile" id="right6">
+                <div class="overlay-right"></div>
+                <div class="section-services section">
+                    <div class="center">
+                        <div class="col-md-7 section-margin">
+                            <div class="border"></div>
+                            <h1>construcción</h1>
+                            <p>Roger Valerio abre como parte de su nueva estrategia corporativa el área de desarrollos urbanísticos. 
+                                En esta nueva etapa, pretendemos crear proyectos de gran plusvalía utilizando diseños y conceptos modernos.
+                                 De manera precisa el área de diseño y construcción se complementa para la creación de proyectos que se ajusten 
+                                 a las necesidades financieras de nuestros clientes.</p>
+                            
+                            <nav class="navigation">
+                                <ul>
+                                    <li class="prev"><a class="prev-slide ion-arrow-left-c"></a></li> 
+                                    <li class="next"><a class="next-slide ion-arrow-right-c"></a></li> 
+                                </ul>
+                            </nav>
+                        </div>     
+                    </div> 
+                </div>
+            </div>
+            <!-- RIGHT 5 -->
+
+            <!-- RIGHT 6 -->
             <div class="ms-section show-mobile" id="right4">
                 <div class="overlay-right"></div>
                 <div class="section-projects section">
@@ -318,75 +423,77 @@ require('manage/wp-blog-header.php');
                             </div>
                             <div class="section-two p-h1 display-none">
                                 <div class="border"></div>
-                                        <?php if( have_rows('projects' , 23) ): ?>
+
+                                <?php
+
+                                        // check if the repeater field has rows of data
+                                        if( have_rows('projects', 26) ):
+
+                                            // loop through the rows of data
+                                            while ( have_rows('projects', 26) ) : the_row();
+
+                                                // display a sub field value
+                                               echo "<h1>" . the_sub_field('nombre') . "</h1>";
+
+                                               echo "<p>" .  the_sub_field('descripcion') . "</p>";
+                                            endwhile;
+
+                                        else :
+
+                                            // no rows found
+
+                                        endif;
+
+                                        ?>
 
 
-                                            <?php while( have_rows('projects' , 23) ): the_row(); 
+                                <?php
 
-                                                // vars
-                                                $nombre = get_sub_field('nombre');
-                                                $descricion = get_sub_field('descripcion');
-                                                $team = get_sub_field('equipo_de_diseno');
-                                                $companeros = get_sub_field('companeros');
-                                                $cliente = get_sub_field('cliente');
-                                                $detalle = get_sub_field('detalle');
-                                                $image = get_sub_fiel('project_image');
+                                    $rows = get_field('projects', 26);
 
-                                                ?>
+                                    if ($rows) {
 
-                                                    <?php if ($nombre): ?>
+                                        echo '<div class="projects-list list-b">';
+                                        echo "<ul>";
 
-                                                       <?php echo "<h1> $nombre </h1>"; ?> 
-                                                       <?php endif ?>                   
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laborum excepturi quasi suscipit, perspiciatis eligendi sit nesciunt provident quaerat cupiditate maiores pariatur iure eaque.</p>
-                                                    <div class="projects-list list-b">
-                                                        <ul>
+                                        foreach ($rows as $row) {
+                                            
+                                            echo '<li> <span> Equipo de diseño</span>: ' . $row['team'] . '</li>';
+                                            echo '<li> <span> Compañeros</span>: ' . $row['companeros'] . '</li>';
+                                            echo '<li> <span> Cliente</span>: ' . $row['cliente'] . '</li>';
+                                             echo '<li> <span> Detalle</span>: ' . $row['detalle'] . '</li>';
 
-                                                            <li>  <?php if ($equipo_de_diseno) ?>
-                                                                
-                                                                <span> Equipo de diseño</span>: <?php echo "$equipo_de_diseno"; ?>
+ 
 
-                                                            </li>
+                                        }
 
+                                        echo "</ul>";
+                                        echo "</div>";
+                                    }
 
-                                                            <li>  <?php if ($companeros) ?>
-                                                                
-                                                                <span> Equipo de diseño</span>: <?php echo "$companeros"; ?>
+                                ?>
 
-                                                            </li>
+                                    
 
-                                                            <li>  <?php if ($cliente) ?>
-                                                                
-                                                                <span> Equipo de diseño</span>: <?php echo "$cliente"; ?>
+                                     <nav class="navigation">
+                                              <ul>
+                                                    <li class="close-projects"><a class="ion-close-round"></a></li> 
+                                             </ul>
+                                     </nav>
 
-                                                            </li>
+                                 </div>
 
-                                                            <li>  <?php if ($detalle) ?>
-                                                                
-                                                                <span> Equipo de diseño</span>: <?php echo "$detalle"; ?>
+                                
 
-                                                            </li>
+                                                      
 
-                                                            <li>  <?php if ($project_image) ?>
-                                                                
-                                                                <span> Equipo de diseño</span>: <?php echo "$project_image"; ?>
-
-                                                            </li>
-
-                                                           
-                                                    </div>
+                                                
 
 
-                                            <?php endwhile; ?>
 
-                                                          <nav class="navigation">
-                                                    <ul>
-                                                        <li class="close-projects"><a class="ion-close-round"></a></li> 
-                                                    </ul>
-                                                </nav>
-                                            </div>
+                                      
 
-                                        <?php endif; ?>
+ 
                                
                                 
                             <div class="section-three p-h1 display-none">
@@ -428,65 +535,17 @@ require('manage/wp-blog-header.php');
                         </div>
                     </div> 
                 </div>
-            </div><!-- RIGHT 4 -->
-            
-            <!-- RIGHT 5 -->
-            <div class="ms-section show-mobile" id="right5">
-                <div class="overlay-right"></div>
-                <div class="section-services section">
-                    <div class="center">
-                        <div class="col-md-7 section-margin">
-                            <div class="border"></div>
-                            <h1>SERVICES</h1>
-                            <div id="services-carousel">
-                                <div class="services-item"> 
-                                    <div class="block">
-                                        <h2>Architectural Design</h2>
-                                        <div class="border"></div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    </div>
-                                </div>
-                                <div class="services-item"> 
-                                    <div class="block">
-                                        <h2>Sustainable Architecture</h2>
-                                        <div class="border"></div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    </div>
-                                </div>
-                                <div class="services-item"> 
-                                    <div class="block">
-                                        <h2>Space Planning Design</h2>
-                                        <div class="border"></div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    </div>
-                                </div>
-                                <div class="services-item"> 
-                                    <div class="block">
-                                        <h2>Interior Design</h2>
-                                        <div class="border"></div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <nav class="navigation">
-                                <ul>
-                                    <li class="prev"><a class="prev-slide ion-arrow-left-c"></a></li> 
-                                    <li class="next"><a class="next-slide ion-arrow-right-c"></a></li> 
-                                </ul>
-                            </nav>
-                        </div>     
-                    </div> 
-                </div>
-            </div><!-- RIGHT 5 -->
-            
+            </div>
             <!-- RIGHT 6 -->
-            <div class="ms-section show-mobile" id="right6">
+            
+            <!-- RIGHT 7 -->
+            <div class="ms-section show-mobile" id="right7">
                 <div class="overlay-right"></div>
                 <div class="section-contact section">
                     <div class="center">
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
-                            <h1>CONTACT</h1>
+                            <h1>CONTACTO</h1>
                             <div class="row">
                                 <form name="sentMessage" id="contactForm" novalidate>
                                     <div class="col-md-6 form-group">
@@ -522,9 +581,14 @@ require('manage/wp-blog-header.php');
                     </ul>
                 </div>
                 <div class="copyright">Roger Valerio Architects - 2016 &copy;</div>
-            </div><!-- END RIGHT 6 -->
+            </div><!-- END RIGHT 7-->
+
+            
+
+
+             
     
-        </div><!-- END MS-RIGHT -->p
+        </div><!-- END MS-RIGHT -->
 
     </div><!-- END MAIN-CONTAINER -->
 
