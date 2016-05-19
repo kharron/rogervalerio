@@ -1285,6 +1285,18 @@ button[type="submit"]:hover {
 
 }
 
+/* Own styles*/
+
+#construction{
+  
+  background: #605b5b;
+}
+
+#construction p{
+
+  color: beige;
+}
+
 /* ==================================================================
                               RESPONSIVE
 ================================================================== */

@@ -46,8 +46,8 @@ $(document).ready(function() {
 
     //MULTISCROLL
     $('#main-container').multiscroll({
-        sectionsColor: ['white','white','white','white','white','white'],
-        anchors: ['first','third','second','fourth','fifth','sixth'],
+        sectionsColor: ['white','white','white','white','white','white', 'white'],
+        anchors: ['first','third','second','fourth','fifth','sixth', 'seventh'],
         easing:'easeInOutCubic',
         menu:'.menu-left',
         scrollingSpeed: 1000,
@@ -81,12 +81,22 @@ $(document).ready(function() {
             $("#right4").insertAfter("#right2");
             $("#right5").insertAfter("#right4");
             $("#right6").insertAfter("#right5");
+            $("#right7").insertAfter("#right6");
+          
+
+
+
         } else {
             $("#right3").insertBefore("#right1");
             $("#right2").insertBefore("#right3");
             $("#right4").insertBefore("#right2");
             $("#right5").insertBefore("#right4");
             $("#right6").insertBefore("#right5");
+            $("#right7").insertBefore("#right6");
+
+
+
+
         }
     }
     reverseSection();
@@ -197,11 +207,11 @@ $(document).ready(function() {
             });
         }
         //PROJECTS
-        if (index == 4){
-            $("#left4").vegas({
+        if (index == 5){
+            $("#left5").vegas({
                 slides: [
-                  { src: "./img/background-left.jpg" },//MAIN BACKGROUND
-                  { src: "./img/background-left.jpg" },//PROJECT 1
+                  { src: "./img/designs/design-1.jpg" },//MAIN BACKGROUND
+                  { src: "./img/designs/design-5.jpg" },//PROJECT 1
                   { src: "./img/background-left.jpg" },//PROJECT 2
                   { src: "./img/background-left.jpg" } //PROJECT 3
                 ],
@@ -212,7 +222,7 @@ $(document).ready(function() {
                 timer:false,
                 animation: [ 'kenburns' ]
             });
-            $("#right4").vegas({
+            $("#right5").vegas({
                 slides: [
                 { src: "./img/background-right.jpg" },//MAIN BACKGROUND
                 { src: "./img/background-right.jpg" },//PROJECT 1
@@ -228,10 +238,10 @@ $(document).ready(function() {
             });
         }
         //SERVICES
-        if (index == 5){
-            $("#left5").vegas({
+        if (index == 4){
+            $("#left4").vegas({
                 slides: [
-                  { src: "./img/background-left.jpg" },
+                  { src: "./img/designs/design-1.jpg" },
                 ],
                 delay: 7000,
                 cover:false,
@@ -239,7 +249,7 @@ $(document).ready(function() {
                 timer:false,
                 animation: [ 'kenburns' ]
             });
-            $("#right5").vegas({
+            $("#right4").vegas({
                 slides: [
                 { src: "./img/background-right.jpg" },
                 ],
@@ -263,6 +273,29 @@ $(document).ready(function() {
                 animation: [ 'kenburns' ]
             });
             $("#right6").vegas({
+                slides: [
+                { src: "./img/background-right.jpg" },
+                ],
+                delay: 7000,
+                cover:false,
+                align:'left',
+                timer:false,
+                animation: [ 'kenburns' ]
+            });
+        }
+
+         if (index == 7){
+            $("#left7").vegas({
+                slides: [
+                  { src: "./img/background-left.jpg" },
+                ],
+                delay: 7000,
+                cover:false,
+                align:'right',
+                timer:false,
+                animation: [ 'kenburns' ]
+            });
+            $("#right7").vegas({
                 slides: [
                 { src: "./img/background-right.jpg" },
                 ],
