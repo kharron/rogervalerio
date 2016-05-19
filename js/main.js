@@ -210,8 +210,8 @@ $(document).ready(function() {
         if (index == 5){
             $("#left5").vegas({
                 slides: [
-                  { src: "./img/background-left.jpg" },//MAIN BACKGROUND
-                  { src: "./img/background-left.jpg" },//PROJECT 1
+                  { src: "./img/designs/design-1.jpg" },//MAIN BACKGROUND
+                  { src: "./img/designs/design-5.jpg" },//PROJECT 1
                   { src: "./img/background-left.jpg" },//PROJECT 2
                   { src: "./img/background-left.jpg" } //PROJECT 3
                 ],
@@ -241,7 +241,7 @@ $(document).ready(function() {
         if (index == 4){
             $("#left4").vegas({
                 slides: [
-                  { src: "./img/background-left.jpg" },
+                  { src: "./img/designs/design-1.jpg" },
                 ],
                 delay: 7000,
                 cover:false,

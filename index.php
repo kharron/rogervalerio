@@ -608,6 +608,7 @@ require('manage/wp-blog-header.php');
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3"></script>
     <script type="text/javascript" src="js/pace.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/gallery-management.js"></script>
 
 </body>
 </html>
