@@ -381,7 +381,7 @@ require('manage/wp-blog-header.php');
             <!-- RIGHT 5 -->
             <div class="ms-section show-mobile" id="right6">
                 <div class="overlay-right"></div>
-                <div class="section-services section">
+                <div class="section-services section" id="construction">
                     <div class="center">
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
