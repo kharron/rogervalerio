@@ -2,7 +2,6 @@
 define('WP_USE_THEMES', false);
 require('manage/wp-blog-header.php');
 
-
 ?>
 
 <!DOCTYPE html>
@@ -426,13 +425,13 @@ require('manage/wp-blog-header.php');
 
                                 <?php
 
-                                        // check if the repeater field has rows of data
+                                      
                                         if( have_rows('projects', 26) ):
 
-                                            // loop through the rows of data
+                                          
                                             while ( have_rows('projects', 26) ) : the_row();
 
-                                                // display a sub field value
+                                               
                                                echo "<h1>" . the_sub_field('nombre') . "</h1>";
 
                                                echo "<p>" .  the_sub_field('descripcion') . "</p>";
@@ -607,8 +606,12 @@ require('manage/wp-blog-header.php');
     <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3"></script>
     <script type="text/javascript" src="js/pace.js"></script>
+    <script>
+
+        var background_left = "<?php echo the_field('background_image_left', 26); ?>";
+        var background_right = "<?php echo the_field('background_image_right', 26); ?>";
+    </script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/gallery-management.js"></script>
 
 </body>
 </html>

@@ -237,11 +237,11 @@ $(document).ready(function() {
                 animation: [ 'kenburns' ]
             });
         }
-        //SERVICES
+        //PROYECTOS
         if (index == 4){
             $("#left4").vegas({
                 slides: [
-                  { src: "./img/designs/design-1.jpg" },
+                  { src: background_left },
                 ],
                 delay: 7000,
                 cover:false,
@@ -251,7 +251,7 @@ $(document).ready(function() {
             });
             $("#right4").vegas({
                 slides: [
-                { src: "./img/background-right.jpg" },
+                { src: background_right },
                 ],
                 delay: 7000,
                 cover:false,
