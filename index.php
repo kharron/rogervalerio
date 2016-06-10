@@ -2,7 +2,6 @@
 define('WP_USE_THEMES', false);
 require('manage/wp-blog-header.php');
 
-
 ?>
 
 <!DOCTYPE html>
@@ -30,6 +29,7 @@ require('manage/wp-blog-header.php');
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <![endif]-->
+    <!--- Testing changes 2 -->
 
 </head>
 <body>
@@ -176,8 +176,15 @@ require('manage/wp-blog-header.php');
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
                             <h1>DISEÑO</h1>
-                            <p>Roger Valerio abre como parte de su nueva estrategia corporativa el área de desarrollos urbanísticos. En esta nueva etapa, pretendemos crear proyectos de gran plusvalía utilizando diseños y conceptos modernos. De manera precisa el área de diseño y construcción se complementa para la creación de proyectos que se ajusten a las necesidades financieras de nuestros clientes.</p>
-                            <div id="design-carousel">
+                            <p>
+                                <ul>
+                                    <li><strong>Nuevas Construcciones</strong></li>
+                                    <li><strong>Remodelaciones</strong></li>
+                                    <li><strong>Interiores</strong></li>
+                                </ul>
+                                
+                                </p>          
+                              <div id="design-carousel">
 															<?php
 																$images= get_field('design_gallery', 6);
 																foreach($images as $image){
@@ -254,7 +261,7 @@ require('manage/wp-blog-header.php');
                             <div class="border"></div>
                             <h1>Perfil</h1>
                             <div class="about-sub">Somos Diseños Managua</div>
-                            <p>Por un poco más de dos décadas Roger Valerio Arquitectura ha estado brindando soluciones Arquitectónicas y de diseño de interiores a prestigiosos clientes en el sector hotelero, comercial, residencial, industrial en Guatemala y Nicaragua.</p>
+                            <p>Nuestro perfil se extiende más allá de la típica firma de arquitectura. Hemos evolucionado a ser una firma de Diseño-Construcción en la cual la Arquitectura y la construcción pueden ejecutarse bajo el mismo contrato agilizando la ejecución de la obra. Ofrecemos diferentes servicios en el sector de la construcción que abarcan desde la planificación, diseño, construcción, supervisión, y administración de proyectos, lo cual nos permite ajustarnos económicamente a las necesidades de nuestros clientes.</p>
                             <hr>
                             <ul>
                                 <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup">Roger Valerio</a></li>
@@ -386,10 +393,12 @@ require('manage/wp-blog-header.php');
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
                             <h1>construcción</h1>
-                            <p>Roger Valerio abre como parte de su nueva estrategia corporativa el área de desarrollos urbanísticos. 
-                                En esta nueva etapa, pretendemos crear proyectos de gran plusvalía utilizando diseños y conceptos modernos.
-                                 De manera precisa el área de diseño y construcción se complementa para la creación de proyectos que se ajusten 
-                                 a las necesidades financieras de nuestros clientes.</p>
+                            <p>
+                                <ul>
+                                    <li ><strong>Ejecución de obra</strong></li>
+                                    <li><strong>Project Management</strong></li>
+                                </ul>   
+                            </p>
                             
                             <nav class="navigation">
                                 <ul>
@@ -426,13 +435,13 @@ require('manage/wp-blog-header.php');
 
                                 <?php
 
-                                        // check if the repeater field has rows of data
+                                      
                                         if( have_rows('projects', 26) ):
 
-                                            // loop through the rows of data
+                                          
                                             while ( have_rows('projects', 26) ) : the_row();
 
-                                                // display a sub field value
+                                               
                                                echo "<h1>" . the_sub_field('nombre') . "</h1>";
 
                                                echo "<p>" .  the_sub_field('descripcion') . "</p>";
@@ -607,8 +616,12 @@ require('manage/wp-blog-header.php');
     <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3"></script>
     <script type="text/javascript" src="js/pace.js"></script>
+    <script>
+
+        var background_left = "<?php echo the_field('background_image_left', 26); ?>";
+        var background_right = "<?php echo the_field('background_image_right', 26); ?>";
+    </script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/gallery-management.js"></script>
 
 </body>
 </html>

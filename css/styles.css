@@ -1292,9 +1292,9 @@ button[type="submit"]:hover {
   background: #605b5b;
 }
 
-#construction p{
+#construction p ul li{ 
 
-  color: beige;
+  color: beige !important;
 }
 
 /* ==================================================================
