@@ -54,7 +54,7 @@ require('manage/wp-blog-header.php');
                     <li data-menuanchor="second"><a href="#second">Perfil</a></li>
                     <li data-menuanchor="third"><a href="#third">Diseño</a></li>
                      
-                     <li data-menuanchor="fourth"><a href="#fourth">Proyectos</a></li>
+                     <li data-menuanchor="fourth"><a href="proyectos.php">Proyectos</a></li>
                     <li data-menuanchor="fifth"><a href="#fifth">Desarrollo</a></li>
 
 
@@ -424,9 +424,10 @@ require('manage/wp-blog-header.php');
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p> 
                                 <div class="projects-list list-a">
                                     <ul>
-                                        <li><a class="projects-link-1"><span>Cosas - </span>Proyecto en Español</a></li>
+                                        <li><a href="proyectos.php"><strong>Ver todos los proyectos</strong></a></li>
+                                      <!--  <li><a class="projects-link-1"><span>Cosas - </span>Proyecto en Español</a></li>
                                         <li><a class="projects-link-2"><span>Otra Cosas & Diseños - </span>Sed ut perspiciat</a></li>
-                                        <li><a class="projects-link-3"><span>Oficina & Comercial  - </span>Otra proyecto en espanol</a></li>
+                                        <li><a class="projects-link-3"><span>Oficina & Comercial  - </span>Otra proyecto en espanol</a></li>-->
                                     </ul>
                                 </div>
                             </div>
