@@ -1551,3 +1551,12 @@ button[type="submit"]:hover {
     }
 
 }
+
+.project-own-bold{
+
+  font-weight: bold;
+}
+
+.project-own-list{
+  padding-left: 10px;
+}
