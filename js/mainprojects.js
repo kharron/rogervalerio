@@ -163,10 +163,11 @@ $(document).ready(function() {
     //SECTION IMAGE BACKGROUND
     function sectionimage(anchorLink, index){
         //ABOUT
-        if (index == 3){
+
+        if (index == 2){
             $("#left2").vegas({
                 slides: [
-                { src:  "./img/bg-images/team.jpg"  },
+                { src:  project2_background_left },
                 ],
                 delay: 7000,
                 cover:false,
@@ -176,7 +177,7 @@ $(document).ready(function() {
             });
             $("#right2").vegas({
                 slides: [
-                { src: "./img/bg-images/team-rt.jpg" },
+                { src: project1_background_right  },
                 ],
                 delay: 7000,
                 cover:false,
@@ -186,10 +187,10 @@ $(document).ready(function() {
             });
         }
         //DESIGN
-        if (index == 2){
+        if (index == 3){
             $("#left3").vegas({
                 slides: [
-                { src: "./img/designs/design-4.jpg" },
+                { src: project1_background_left },
                 ],
                 delay: 7000,
                 cover:false,
@@ -199,7 +200,7 @@ $(document).ready(function() {
             });
             $("#right3").vegas({
                 slides: [
-                { src: "./img/designs/design-4.jpg" },
+                { src: project2_background_right },
                 ],
                 delay: 7000,
                 cover:false,
@@ -211,11 +212,8 @@ $(document).ready(function() {
         //PROJECTS
         if (index == 5){
             $("#left5").vegas({
-                slides: [
-                  { src: "./img/designs/design-1.jpg" },//MAIN BACKGROUND
-                  { src: "./img/designs/design-5.jpg" },//PROJECT 1
-                  { src: "./img/background-left.jpg" },//PROJECT 2
-                  { src: "./img/background-left.jpg" } //PROJECT 3
+                slides: [ 
+                { src: project4_background_left },
                 ],
                 delay: 7000,
                 cover:false,
@@ -225,11 +223,8 @@ $(document).ready(function() {
                 animation: [ 'kenburns' ]
             });
             $("#right5").vegas({
-                slides: [
-                { src: "./img/background-right.jpg" },//MAIN BACKGROUND
-                { src: "./img/background-right.jpg" },//PROJECT 1
-                { src: "./img/background-right.jpg" },//PROJECT 2
-                { src: "./img/background-right.jpg" } //PROJECT 3
+                slides: [ 
+                { src: project4_background_right },
                 ],
                 delay: 7000,
                 cover:false,
@@ -243,7 +238,7 @@ $(document).ready(function() {
         if (index == 4){
             $("#left4").vegas({
                 slides: [
-                  { src: background_left },
+                  { src:  project3_background_left },
                 ],
                 delay: 7000,
                 cover:false,
@@ -253,7 +248,7 @@ $(document).ready(function() {
             });
             $("#right4").vegas({
                 slides: [
-                { src: background_right },
+                { src:  project3_background_right },
                 ],
                 delay: 7000,
                 cover:false,
@@ -266,7 +261,7 @@ $(document).ready(function() {
         if (index == 6){
             $("#left6").vegas({
                 slides: [
-                  { src: "./img/background-left.jpg" },
+                  { src: project5_background_left },
                 ],
                 delay: 7000,
                 cover:false,
@@ -276,7 +271,7 @@ $(document).ready(function() {
             });
             $("#right6").vegas({
                 slides: [
-                { src: "./img/background-right.jpg" },
+                { src: project5_background_right },
                 ],
                 delay: 7000,
                 cover:false,
@@ -289,7 +284,7 @@ $(document).ready(function() {
          if (index == 7){
             $("#left7").vegas({
                 slides: [
-                  { src: "./img/background-left.jpg" },
+                  { src: project6_background_left },
                 ],
                 delay: 7000,
                 cover:false,
@@ -299,7 +294,7 @@ $(document).ready(function() {
             });
             $("#right7").vegas({
                 slides: [
-                { src: "./img/background-right.jpg" },
+                { src: project6_background_right },
                 ],
                 delay: 7000,
                 cover:false,
@@ -308,6 +303,32 @@ $(document).ready(function() {
                 animation: [ 'kenburns' ]
             });
         }
+
+
+          if (index == 8){
+            $("#left8").vegas({
+                slides: [
+                  { src: project6_background_left },
+                ],
+                delay: 7000,
+                cover:false,
+                align:'right',
+                timer:false,
+                animation: [ 'kenburns' ]
+            });
+            $("#right8").vegas({
+                slides: [
+                { src: project6_background_right },
+                ],
+                delay: 7000,
+                cover:false,
+                align:'left',
+                timer:false,
+                animation: [ 'kenburns' ]
+            });
+        }
+
+
     }
 
     //FADE IN-OUT PROJECTS SECTIONS

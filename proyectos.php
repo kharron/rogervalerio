@@ -1,3 +1,8 @@
+<?php 
+define('WP_USE_THEMES', false);
+require('manage/wp-blog-header.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +11,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Roger Valerio - Design</title>
+    <title>Roger Valerio - Proyectos</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
@@ -19,6 +24,7 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/vegas.css">
+    <link rel="stylesheet" href="css/project-styles.css">
    
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -44,16 +50,16 @@
             <div class="center">
                 <ul>
                     <li data-menuanchor="first" class="active"><a href="#first">Proyectos</a></li>
-                    <li data-menuanchor="second"><a href="#second">Proyecto2</a></li>
-                    <li data-menuanchor="third"><a href="#third">Proyecto3</a></li>
-                    <li data-menuanchor="fourth"><a href="#fourth">Proyecto4</a></li>
-                    <li data-menuanchor="fifth"><a href="#fifth">Proyecto5</a></li>
-                    <li data-menuanchor="sixth"><a href="#sixth">Proyecto6</a></li>
-                    <li data-menuanchor="seventh"><a href="#seventh">Proyecto7</a></li>
-                    <li data-menuanchor="eighth"><a href="#eighth">Proyecto8</a></li>
+                    <li data-menuanchor="second"><a href="#second">El Cielo</a></li>
+                    <li data-menuanchor="third"><a href="#third">Villa Blanca</a></li>
+                    <li data-menuanchor="fourth"><a href="#fourth">Casa H</a></li>
+                    <li data-menuanchor="fifth"><a href="#fifth">Maxi Palí</a></li>
+                    <li data-menuanchor="sixth"><a href="#sixth">La Colonia</a></li>
+                    <li data-menuanchor="seventh"><a href="#seventh">Banpro</a></li>
+                    <li data-menuanchor="eighth"><a href="#eighth">Plaza Quetzal</a></li>
                 </ul>
             </div>
-            <div class="menu-name">RV</div>
+            <div class="menu-name"><img src="img/logo.png"></div>
             <div class="menu-sub"><a href="index.php">BACK TO HOMEPAGE</a></div>
         </nav><!-- END MENU-LEFT -->
         
@@ -120,42 +126,42 @@
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/carousel-background.jpg)"></div>
                         <div class="home-link">
-                            <a href="#second"><span>Proyecto2</span></a>
+                            <a href="#second"><span>El cielo</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">  
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/carousel-background.jpg)"></div> 
                         <div class="home-link">
-                            <a href="#third"><span>Proyecto3</span></a>
+                            <a href="#third"><span>Villa Blanca</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">  
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/carousel-background.jpg)"></div>
                         <div class="home-link">
-                            <a href="#fourth"><span>Proyecto4</span></a>
+                            <a href="#fourth"><span>Casa H</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">  
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/carousel-background.jpg)"></div> 
                         <div class="home-link">
-                            <a href="#fifth"><span>Proyecto5</span></a>
+                            <a href="#fifth"><span>Maxi Palí</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">  
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/carousel-background.jpg)"></div>
                         <div class="home-link">
-                            <a href="#sixth"><span>Proyecto6</span></a>
+                            <a href="#sixth"><span>La Colonia</span></a>
                         </div>
                     </div>
                      <div class="home-item home-height">  
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/carousel-background.jpg)"></div>
                         <div class="home-link">
-                            <a href="#seventh"><span>Proyecto7</span></a>
+                            <a href="#seventh"><span>Banpro</span></a>
                         </div>
                     </div>
 
@@ -163,7 +169,7 @@
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/carousel-background.jpg)"></div>
                         <div class="home-link">
-                            <a href="#eighth"><span>Proyecto8</span></a>
+                            <a href="#eighth"><span>Plaza Quetzal</span></a>
                         </div>
                     </div>
                 </div>
@@ -176,20 +182,77 @@
                     <div class="center">
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
-                            <h1>Proyecto2</h1>
+                            <h1>El Cielo Ocean View Living</h1>
                             <div class="projects-list list-b">
-                                    <ul class="project-own-list">
-                                        <li><span class="project-own-bold">Design team </span>: Maria Kers , John Willis</li>
-                                        <li><span class="project-own-bold">Projects partners </span>: John Willis + Partners.</li>
-                                        <li><span class="project-own-bold">Client </span>: Yellew Associates.</li>
-                                        <li><span class="project-own-bold">Details </span>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nisi, iusto amet dignissimos expedita alias libero temporibus earum? Mollitia dolor illum.</li>
-                                    </ul>
+                                        <?php
+
+                                    $rows = get_field('project1_team', 44);
+
+                                    if ($rows) {
+
+                                       
+                                        echo "<ul class='project-own-list'>";
+
+                                        foreach ($rows as $row) {
+                                            
+                                            echo '<li> <span class="project-own-bold"> Diseño </span>: ' . $row['diseno'] . '</li>';
+                                            echo '<li> <span class="project-own-bold"> Construcción</span>: ' . $row['construccion'] . '</li>';
+                                            echo '<li> <span class="project-own-bold"> Localización</span>: ' . $row['localizacion'] . '</li>';
+                                            
+                                             echo '<li> <span class="project-own-bold"> Detalle</span>: ' . $row['detalle'] . '</li>';
+
+ 
+
+                                        }
+
+                                        echo "</ul>";
+                                        
+                                    }
+
+                                ?>
+                                   <!-- <ul class="project-own-list">
+
+                                        <li><span class="project-own-bold">Diseño</span>: Roger Valerio Arquitectura</li>
+                                        <li><span class="project-own-bold">Construcción </span>: Roger Valerio Arquitectura</li>
+                                        <li><span class="project-own-bold">Localización </span>: Colinas de Mirarar – San Juan del Sur</li>
+                                        <li><span class="project-own-bold">Detalle </span>: El Cielo, localizado en San Juan del Sur, es un proyecto que incluye nueve casas más dos edificios de apartamentos. El diseño de conjunto se realizó respetando la topografía misma del terreno garantizando a los propietarios disfrutar de las increíbles vistas que ofrece el sitio.</li>
+                                    </ul>-->
                                 </div>
                             <div id="design-carousel">
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/background.jpg">
+
+                             <?php
+                                 $images= get_field('project1_gallery', 44);
+                                      foreach($images as $image){
+                                     ?>
+                                    <div class="design-item design-height">
+                                      <a class="design-popup-link mfp-fade" href="<?= $image['url']; ?>">
                                         <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/background.jpg)"></div>
+                                        <div class="design-img" style="background-image: url(<?= $image['url']; ?>)"></div>
+                                    </a>
+                                    </div>
+                                <?php
+                                }
+                               ?>
+
+                                                              
+                                <!--<div class="design-item design-height">
+                                    <a class="design-popup-link mfp-fade" href="img/cielo/2.jpg">
+                                        <div class="design-overlay"></div>
+                                        <div class="design-img" style="background-image: url(img/cielo/2.jpg)"></div>
+                                    </a>
+                                </div>
+
+
+                                <div class="design-item design-height">
+                                    <a class="design-popup-link mfp-fade" href="img/cielo/3.jpg">
+                                        <div class="design-overlay"></div>
+                                        <div class="design-img" style="background-image: url(img/cielo/3.jpg)"></div>
+                                    </a>
+                                </div>
+                                <div class="design-item design-height">
+                                    <a class="design-popup-link mfp-fade" href="img/cielo/.5jpg">
+                                        <div class="design-overlay"></div>
+                                        <div class="design-img" style="background-image: url(img/cielo/5.jpg)"></div>
                                     </a>
                                 </div>
                                 <div class="design-item design-height">
@@ -197,19 +260,7 @@
                                         <div class="design-overlay"></div>
                                         <div class="design-img" style="background-image: url(img/background.jpg)"></div>
                                     </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/background.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/background.jpg)"></div>
-                                    </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/background.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/background.jpg)"></div>
-                                    </a>
-                                </div>
+                                </div>-->
                             </div>
                             <nav class="navigation">
                                 <ul>
@@ -229,17 +280,54 @@
                     <div class="center">
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
-                            <h1>Proyecto3</h1>
+                            <h1>Villa Blanca</h1>
                             <div class="projects-list list-b">
-                                    <ul class="project-own-list">
+                              <?php
+
+                                $rows = get_field('project2_team', 68);
+
+                                if ($rows) {
+
+                                       
+                                echo "<ul class='project-own-list'>";
+
+                                foreach ($rows as $row) {
+                                            
+                                echo '<li> <span class="project-own-bold"> Diseño </span>: ' . $row['diseno'] . '</li>';
+                                echo '<li> <span class="project-own-bold"> Construcción</span>: ' . $row['construccion'] . '</li>';
+                                echo '<li> <span class="project-own-bold"> Localización</span>: ' . $row['localizacion'] . '</li>';
+                               echo '<li> <span class="project-own-bold"> Detalle</span>: ' . $row['detalle'] . '</li>';
+                                }
+
+                              echo "</ul>";
+                                        
+                                    }
+
+                                ?>
+
+                                   <!-- <ul class="project-own-list">
                                         <li><span class="project-own-bold">Design team </span>: Maria Kers , John Willis</li>
                                         <li><span class="project-own-bold">Projects partners </span>: John Willis + Partners.</li>
                                         <li><span class="project-own-bold">Client </span>: Yellew Associates.</li>
                                         <li><span class="project-own-bold">Details </span>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nisi, iusto amet dignissimos expedita alias libero temporibus earum? Mollitia dolor illum.</li>
-                                    </ul>
+                                    </ul>-->
                                 </div>
                             <div id="design-carousel-2">
-                                <div class="design-item design-height">
+                            <?php
+                                 $images= get_field('project2_gallery', 68);
+                                      foreach($images as $image){
+                                     ?>
+                                    <div class="design-item design-height">
+                                      <a class="design-popup-link mfp-fade" href="<?= $image['url']; ?>">
+                                        <div class="design-overlay"></div>
+                                        <div class="design-img" style="background-image: url(<?= $image['url']; ?>)"></div>
+                                    </a>
+                                    </div>
+                                <?php
+                                }
+                               ?>
+
+                               <!-- <div class="design-item design-height">
                                     <a class="design-popup-link mfp-fade" href="img/background.jpg">
                                         <div class="design-overlay"></div>
                                         <div class="design-img" style="background-image: url(img/background.jpg)"></div>
@@ -262,7 +350,7 @@
                                         <div class="design-overlay"></div>
                                         <div class="design-img" style="background-image: url(img/background.jpg)"></div>
                                     </a>
-                                </div>
+                                </div>-->
                             </div>
                             <nav class="navigation">
                                 <ul>
@@ -282,40 +370,48 @@
                     <div class="center">
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
-                            <h1>Proyecto4</h1>
+                            <h1>Casa H</h1>
                             <div class="projects-list list-b">
-                                    <ul class="project-own-list">
-                                        <li><span class="project-own-bold">Design team </span>: Maria Kers , John Willis</li>
-                                        <li><span class="project-own-bold">Projects partners </span>: John Willis + Partners.</li>
-                                        <li><span class="project-own-bold">Client </span>: Yellew Associates.</li>
-                                        <li><span class="project-own-bold">Details </span>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nisi, iusto amet dignissimos expedita alias libero temporibus earum? Mollitia dolor illum.</li>
-                                    </ul>
+                                     <?php
+
+                                $rows = get_field('project3_team', 84);
+
+                                if ($rows) {
+
+                                       
+                                echo "<ul class='project-own-list'>";
+
+                                foreach ($rows as $row) {
+                                            
+                                echo '<li> <span class="project-own-bold"> Diseño </span>: ' . $row['diseno'] . '</li>';
+                                echo '<li> <span class="project-own-bold"> Construcción</span>: ' . $row['construccion'] . '</li>';
+                                echo '<li> <span class="project-own-bold"> Localización</span>: ' . $row['localizacion'] . '</li>';
+                               echo '<li> <span class="project-own-bold"> Detalle</span>: ' . $row['detalle'] . '</li>';
+                                }
+
+                              echo "</ul>";
+                                        
+                                    }
+
+                                ?>
                                 </div>
                             <div id="design-carousel-3">
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/background.jpg">
+                                    <?php
+                                 $images= get_field('project3_gallery', 84);
+                                      foreach($images as $image){
+                                     ?>
+                                    <div class="design-item design-height">
+                                      <a class="design-popup-link mfp-fade" href="<?= $image['url']; ?>">
                                         <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/background.jpg)"></div>
+                                        <div class="design-img" style="background-image: url(<?= $image['url']; ?>)"></div>
                                     </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/background.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/background.jpg)"></div>
-                                    </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/background.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/background.jpg)"></div>
-                                    </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/background.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/background.jpg)"></div>
-                                    </a>
-                                </div>
+                                    </div>
+                                <?php
+                                }
+                               ?>
+                                
+                                                             
+                                
                             </div>
                             <nav class="navigation">
                                 <ul>
@@ -335,16 +431,46 @@
                     <div class="center">
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
-                            <h1>Proyecto5</h1>
+                            <h1>Maxi Palí - Mayoreo</h1>
                             <div class="projects-list list-b">
-                                    <ul class="project-own-list">
-                                        <li><span class="project-own-bold">Design team </span>: Maria Kers , John Willis</li>
-                                        <li><span class="project-own-bold">Projects partners </span>: John Willis + Partners.</li>
-                                        <li><span class="project-own-bold">Client </span>: Yellew Associates.</li>
-                                        <li><span class="project-own-bold">Details </span>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nisi, iusto amet dignissimos expedita alias libero temporibus earum? Mollitia dolor illum.</li>
-                                    </ul>
+                                    <?php
+
+                                $rows = get_field('project4_team', 101);
+
+                                if ($rows) {
+
+                                       
+                                echo "<ul class='project-own-list'>";
+
+                                foreach ($rows as $row) {
+                                            
+                                echo '<li> <span class="project-own-bold"> Diseño </span>: ' . $row['diseno'] . '</li>';
+                                echo '<li> <span class="project-own-bold"> Construcción</span>: ' . $row['construccion'] . '</li>';
+                                echo '<li> <span class="project-own-bold"> Localización</span>: ' . $row['localizacion'] . '</li>';
+                               echo '<li> <span class="project-own-bold"> Detalle</span>: ' . $row['detalle'] . '</li>';
+                                }
+
+                              echo "</ul>";
+                                        
+                                    }
+
+                                ?>
                                 </div>
                             <div id="design-carousel-4">
+
+                                <?php
+                                 $images= get_field('project4_gallery', 101);
+                                      foreach($images as $image){
+                                     ?>
+                                    <div class="design-item design-height">
+                                      <a class="design-popup-link mfp-fade" href="<?= $image['url']; ?>">
+                                        <div class="design-overlay"></div>
+                                        <div class="design-img" style="background-image: url(<?= $image['url']; ?>)"></div>
+                                    </a>
+                                    </div>
+                                <?php
+                                }
+                               ?>
                                 <div class="design-item design-height">
                                     <a class="design-popup-link mfp-fade" href="img/background.jpg">
                                         <div class="design-overlay"></div>
@@ -388,16 +514,45 @@
                     <div class="center">
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
-                            <h1>Proyecto6</h1>
+                            <h1>Supermercado La Colonia</h1>
                             <div class="projects-list list-b">
-                                    <ul class="project-own-list">
-                                        <li><span class="project-own-bold">Design team </span>: Maria Kers , John Willis</li>
-                                        <li><span class="project-own-bold">Projects partners </span>: John Willis + Partners.</li>
-                                        <li><span class="project-own-bold">Client </span>: Yellew Associates.</li>
-                                        <li><span class="project-own-bold">Details </span>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nisi, iusto amet dignissimos expedita alias libero temporibus earum? Mollitia dolor illum.</li>
-                                    </ul>
+                                      <?php
+
+                                $rows = get_field('project5_team', 116);
+
+                                if ($rows) {
+
+                                       
+                                echo "<ul class='project-own-list'>";
+
+                                foreach ($rows as $row) {
+                                            
+                                echo '<li> <span class="project-own-bold"> Diseño </span>: ' . $row['diseno'] . '</li>';
+                                echo '<li> <span class="project-own-bold"> Construcción</span>: ' . $row['construccion'] . '</li>';
+                                echo '<li> <span class="project-own-bold"> Localización</span>: ' . $row['localizacion'] . '</li>';
+                               echo '<li> <span class="project-own-bold"> Detalle</span>: ' . $row['detalle'] . '</li>';
+                                }
+
+                              echo "</ul>";
+                                        
+                                    }
+
+                                ?>
                                 </div>
                             <div id="design-carousel-5">
+                             <?php
+                                 $images= get_field('project5_gallery', 116);
+                                      foreach($images as $image){
+                                     ?>
+                                    <div class="design-item design-height">
+                                      <a class="design-popup-link mfp-fade" href="<?= $image['url']; ?>">
+                                        <div class="design-overlay"></div>
+                                        <div class="design-img" style="background-image: url(<?= $image['url']; ?>)"></div>
+                                    </a>
+                                    </div>
+                                <?php
+                                }
+                               ?>
                                 <div class="design-item design-height">
                                     <a class="design-popup-link mfp-fade" href="img/background.jpg">
                                         <div class="design-overlay"></div>
@@ -440,16 +595,45 @@
                     <div class="center">
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
-                            <h1>Proyecto8</h1>
+                            <h1>Plaza Quetzal</h1>
                             <div class="projects-list list-b">
-                                    <ul class="project-own-list">
-                                        <li><span class="project-own-bold">Design team </span>: Maria Kers , John Willis</li>
-                                        <li><span class="project-own-bold">Projects partners </span>: John Willis + Partners.</li>
-                                        <li><span class="project-own-bold">Client </span>: Yellew Associates.</li>
-                                        <li><span class="project-own-bold">Details </span>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nisi, iusto amet dignissimos expedita alias libero temporibus earum? Mollitia dolor illum.</li>
-                                    </ul>
+                                     <?php
+
+                                $rows = get_field('project7_team', 155);
+
+                                if ($rows) {
+
+                                       
+                                echo "<ul class='project-own-list'>";
+
+                                foreach ($rows as $row) {
+                                            
+                                echo '<li> <span class="project-own-bold"> Diseño </span>: ' . $row['diseno'] . '</li>';
+                                echo '<li> <span class="project-own-bold"> Construcción</span>: ' . $row['construccion'] . '</li>';
+                                echo '<li> <span class="project-own-bold"> Localización</span>: ' . $row['localizacion'] . '</li>';
+                               echo '<li> <span class="project-own-bold"> Detalle</span>: ' . $row['detalle'] . '</li>';
+                                }
+
+                              echo "</ul>";
+                                        
+                                    }
+
+                                ?>
                                 </div>
                             <div id="design-carousel-6">
+                                <?php
+                                 $images= get_field('project7_gallery', 155);
+                                      foreach($images as $image){
+                                     ?>
+                                    <div class="design-item design-height">
+                                      <a class="design-popup-link mfp-fade" href="<?= $image['url']; ?>">
+                                        <div class="design-overlay"></div>
+                                        <div class="design-img" style="background-image: url(<?= $image['url']; ?>)"></div>
+                                    </a>
+                                    </div>
+                                <?php
+                                }
+                               ?>
                                 <div class="design-item design-height">
                                     <a class="design-popup-link mfp-fade" href="img/background.jpg">
                                         <div class="design-overlay"></div>
@@ -492,40 +676,46 @@
                     <div class="center">
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
-                            <h1>Proyecto7</h1>
+                            <h1>Sucursal Banpro Carretera Sur</h1>
                              <div class="projects-list list-b">
-                                    <ul class="project-own-list">
-                                        <li><span class="project-own-bold">Design team </span>: Maria Kers , John Willis</li>
-                                        <li><span class="project-own-bold">Projects partners </span>: John Willis + Partners.</li>
-                                        <li><span class="project-own-bold">Client </span>: Yellew Associates.</li>
-                                        <li><span class="project-own-bold">Details </span>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nisi, iusto amet dignissimos expedita alias libero temporibus earum? Mollitia dolor illum.</li>
-                                    </ul>
+                                    <?php
+
+                                $rows = get_field('project6_team', 141);
+
+                                if ($rows) {
+
+                                       
+                                echo "<ul class='project-own-list'>";
+
+                                foreach ($rows as $row) {
+                                            
+                                echo '<li> <span class="project-own-bold"> Diseño </span>: ' . $row['diseno'] . '</li>';
+                                echo '<li> <span class="project-own-bold"> Construcción</span>: ' . $row['construccion'] . '</li>';
+                                echo '<li> <span class="project-own-bold"> Localización</span>: ' . $row['localizacion'] . '</li>';
+                               echo '<li> <span class="project-own-bold"> Detalle</span>: ' . $row['detalle'] . '</li>';
+                                }
+
+                              echo "</ul>";
+                                        
+                                    }
+
+                                ?>
                                 </div>
                             <div id="design-carousel-7">
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/background.jpg">
+                                 <?php
+                                 $images= get_field('project6_gallery', 141);
+                                      foreach($images as $image){
+                                     ?>
+                                    <div class="design-item design-height">
+                                      <a class="design-popup-link mfp-fade" href="<?= $image['url']; ?>">
                                         <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/background.jpg)"></div>
+                                        <div class="design-img" style="background-image: url(<?= $image['url']; ?>)"></div>
                                     </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/background.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/background.jpg)"></div>
-                                    </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/background.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/background.jpg)"></div>
-                                    </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/background.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/background.jpg)"></div>
-                                    </a>
-                                </div>
+                                    </div>
+                                <?php
+                                }
+                               ?>
+                                
                             </div>
                             <nav class="navigation">
                                 <ul>
@@ -566,7 +756,22 @@
     <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3"></script>
     <script type="text/javascript" src="js/pace.js"></script>
+     <script>
+        var project1_background_left = "<?php echo the_field('background_image_left', 44); ?>";
+        var project1_background_right = "<?php echo the_field('background_image_right', 44); ?>";
+        var project2_background_left = "<?php echo the_field('background_image_left', 68); ?>";
+        var project2_background_right = "<?php echo the_field('background_image_right', 68); ?>";
+        var project3_background_left = "<?php echo the_field('background_image_left', 84); ?>";
+        var project3_background_right = "<?php echo the_field('background_image_right', 84); ?>";
+        var project4_background_left = "<?php echo the_field('background_image_left', 101); ?>";
+        var project4_background_right = "<?php echo the_field('background_image_right', 101); ?>";
+        var project5_background_left = "<?php echo the_field('background_image_left', 116); ?>";
+        var project5_background_right = "<?php echo the_field('background_image_right', 116); ?>";
+        var project6_background_left = "<?php echo the_field('background_image_left', 141); ?>";
+        var project6_background_right = "<?php echo the_field('background_image_right', 141); ?>";
+    </script>
     <script type="text/javascript" src="js/mainprojects.js"></script>
+    
 
 </body>
 </html>

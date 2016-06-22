@@ -63,7 +63,7 @@ require('manage/wp-blog-header.php');
 
                 </ul>
             </div>
-            <div class="menu-name">RV</div>
+            <div class="menu-name"><img src="img/logo.png"></div>
             <div class="menu-sub">ROGER VALERIO</div>
         </nav><!-- END MENU-LEFT -->
         
@@ -621,6 +621,7 @@ require('manage/wp-blog-header.php');
 
         var background_left = "<?php echo the_field('background_image_left', 26); ?>";
         var background_right = "<?php echo the_field('background_image_right', 26); ?>";
+
     </script>
     <script type="text/javascript" src="js/main.js"></script>
 
