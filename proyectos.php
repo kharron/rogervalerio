@@ -14,7 +14,7 @@ require('manage/wp-blog-header.php');
     <title>Roger Valerio - Proyectos</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <meta name="author" content="">
+    <meta name="author" content="SenorCoders">
     <link rel="icon" href="img/only-logo.png">
 
     <!-- CSS styles-->

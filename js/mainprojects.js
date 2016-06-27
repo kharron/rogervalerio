@@ -1,7 +1,7 @@
 /*
 Theme Name: ARD
 Description: Architecture Template
-Author: Rafava
+Author: SenorCoders
 Version: 1.2
 */
 
