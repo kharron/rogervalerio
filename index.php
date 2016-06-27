@@ -15,7 +15,7 @@ require('manage/wp-blog-header.php');
     <title>Roger Valerio - Diseños</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <meta name="author" content="">
+    <meta name="author" content="SenorCoders">
     <link rel="icon" href="img/only-logo.png">
 
     <!-- CSS styles-->
@@ -38,11 +38,9 @@ require('manage/wp-blog-header.php');
     <div class="loader-background">
         <div class="loader-center"> 
             <div class="loader-frame">
-<<<<<<< HEAD
-                <div class="loader-name"><img src="img/logo.png"></div>
-=======
+
                 <div class="loader-name"><img src="img/logo-clear.png"></div>
->>>>>>> e27ba2aa16c85eedcc0d169395c297ee59b74621
+
             </div>
         </div>
     </div><!-- END LOADER -->
