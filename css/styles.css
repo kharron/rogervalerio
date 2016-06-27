@@ -66,7 +66,7 @@ a:link {
 h1 {
      
     color: #474444;
-    font-size: 70px;
+    font-size: 2em;
     font-weight: 800;
     letter-spacing:8px;
     margin-bottom: 25px;
@@ -224,12 +224,12 @@ body > .skiptranslate {
 
 .loader-frame {
 
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
     border: 6px solid #FEECB3;
     vertical-align: middle;
-    background-image: url("../img/loader-bg.jpg");  
+    
     background-repeat: no-repeat;
     background-position: center center;
    -webkit-background-size: cover;
@@ -299,7 +299,7 @@ body > .skiptranslate {
     font-weight: 800;
     letter-spacing: 2px;
     position: fixed;
-    top: 40px;
+    top: 35px;
     color: #474444;
 
 }
