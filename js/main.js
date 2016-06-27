@@ -47,7 +47,7 @@ $(document).ready(function() {
     //MULTISCROLL
     $('#main-container').multiscroll({
         sectionsColor: ['white','white','white','white','white','white', 'white'],
-        anchors: ['first','third','second','fourth','fifth','sixth', 'seventh'],
+        anchors: ['first','second','third','fourth','fifth','sixth', 'seventh'],
         easing:'easeInOutCubic',
         menu:'.menu-left',
         scrollingSpeed: 1000,
@@ -76,9 +76,9 @@ $(document).ready(function() {
     //REVERSE SECTIONS (MOBILE)
     function reverseSection() {
         if ($(window).width() <= 1024) {
-            $("#right3").insertAfter("#right1");
-            $("#right2").insertAfter("#right3");
-            $("#right4").insertAfter("#right2");
+            $("#right2").insertAfter("#right1");
+            $("#right3").insertAfter("#right2");
+            $("#right4").insertAfter("#right3");
             $("#right5").insertAfter("#right4");
             $("#right6").insertAfter("#right5");
             $("#right7").insertAfter("#right6");
@@ -87,9 +87,9 @@ $(document).ready(function() {
 
 
         } else {
-            $("#right3").insertBefore("#right1");
-            $("#right2").insertBefore("#right3");
-            $("#right4").insertBefore("#right2");
+            $("#right2").insertBefore("#right1");
+            $("#right3").insertBefore("#right2");
+            $("#right4").insertBefore("#right3");
             $("#right5").insertBefore("#right4");
             $("#right6").insertBefore("#right5");
             $("#right7").insertBefore("#right6");

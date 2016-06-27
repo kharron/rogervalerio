@@ -16,7 +16,7 @@ require('manage/wp-blog-header.php');
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.png">
+    <link rel="icon" href="img/only-logo.png">
 
     <!-- CSS styles-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -38,7 +38,7 @@ require('manage/wp-blog-header.php');
     <div class="loader-background">
         <div class="loader-center"> 
             <div class="loader-frame">
-                <div class="loader-name">RV</div>
+                <div class="loader-name"><img src="img/logo-clear.png"></div>
             </div>
         </div>
     </div><!-- END LOADER -->
@@ -63,7 +63,7 @@ require('manage/wp-blog-header.php');
 
                 </ul>
             </div>
-            <div class="menu-name"><img src="img/logo.png"></div>
+            <div class="menu-name"><img src="img/only-logo.png"></div>
             <div class="menu-sub">ROGER VALERIO</div>
         </nav><!-- END MENU-LEFT -->
         
@@ -168,7 +168,7 @@ require('manage/wp-blog-header.php');
                 </div>
             </div><!-- END RIGHT 1 -->
 
-            <!-- END RIGHT 3 -->             
+            <!--  RIGHT 3 -->             
             <div class="ms-section show-mobile" id="right3">
                 <div class="overlay-right"></div>
                 <div class="section-design section">
@@ -585,9 +585,9 @@ require('manage/wp-blog-header.php');
                 </div> 
                 <div class="social">
                     <ul>
-                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                        <li><a href=""><i class="ion-social-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/pages/ROGER-VALERIO-ARQUITECTURA/113394305343599" target="_blank"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="https://ni.linkedin.com/in/roger-valerio-9082a842" target="_blank"><i class="ion-social-linkedin"></i></a></li>
                     </ul>
                 </div>
                 <div class="copyright">Roger Valerio Architects - 2016 &copy;</div>
