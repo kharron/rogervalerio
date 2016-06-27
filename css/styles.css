@@ -224,8 +224,13 @@ body > .skiptranslate {
 
 .loader-frame {
 
+<<<<<<< HEAD
     width: 150px;
     height: 150px;
+=======
+    width: 270px;
+    height: auto;
+>>>>>>> e27ba2aa16c85eedcc0d169395c297ee59b74621
     margin: 0 auto;
     border: 6px solid #FEECB3;
     vertical-align: middle;
@@ -248,7 +253,9 @@ body > .skiptranslate {
     line-height: 118px;
  
 }
-
+.loader-name img{
+  width: 250px;
+}
 .pace {
 
    -webkit-pointer-events: none;
@@ -302,6 +309,11 @@ body > .skiptranslate {
     top: 35px;
     color: #474444;
 
+}
+
+.menu-name img{
+
+  width: 120px;
 }
 
 .menu-sub {

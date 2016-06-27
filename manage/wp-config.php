@@ -68,8 +68,8 @@ $table_prefix  = 'wp_';
 /**
  * Change the Domain Below
  **/
-//define('WP_HOME','http://localhost/rogervalerio/manage/');
-//define('WP_SITEURL','http://localhost/rogervalerio/manage/');
+define('WP_HOME','http://localhost/rogervalerio/manage/');
+define('WP_SITEURL','http://localhost/rogervalerio/manage/');
 
 /**
  * For developers: WordPress debugging mode.

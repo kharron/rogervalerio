@@ -15,7 +15,11 @@ require('manage/wp-blog-header.php');
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
+<<<<<<< HEAD
     <link rel="icon" href="img/logo.png">
+=======
+    <link rel="icon" href="img/only-logo.png">
+>>>>>>> e27ba2aa16c85eedcc0d169395c297ee59b74621
 
     <!-- CSS styles-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -37,7 +41,11 @@ require('manage/wp-blog-header.php');
     <div class="loader-background">
         <div class="loader-center"> 
             <div class="loader-frame">
+<<<<<<< HEAD
                 <div class="loader-name"><img src="img/logo.png"></div>
+=======
+                <div class="loader-name"><img src="img/logo-clear.png"></div>
+>>>>>>> e27ba2aa16c85eedcc0d169395c297ee59b74621
             </div>
         </div>
     </div><!-- END LOADER -->
@@ -55,11 +63,11 @@ require('manage/wp-blog-header.php');
                     <li data-menuanchor="fourth"><a href="#fourth">Casa H</a></li>
                     <li data-menuanchor="fifth"><a href="#fifth">Maxi Palí</a></li>
                     <li data-menuanchor="sixth"><a href="#sixth">La Colonia</a></li>
-                    <li data-menuanchor="seventh"><a href="#seventh">Banpro</a></li>
-                    <li data-menuanchor="eighth"><a href="#eighth">Plaza Quetzal</a></li>
+                    <li data-menuanchor="seventh"><a href="#seventh">Plaza Quetzal</a></li>
+                    <li data-menuanchor="eighth"><a href="#eighth">Banpro</a></li>
                 </ul>
             </div>
-            <div class="menu-name"><img src="img/logo.png"></div>
+            <div class="menu-name"><img src="img/only-logo.png"></div>
             <div class="menu-sub"><a href="index.php">BACK TO HOMEPAGE</a></div>
         </nav><!-- END MENU-LEFT -->
         
@@ -114,7 +122,7 @@ require('manage/wp-blog-header.php');
         <div class="ms-right">
             
             <!-- RIGHT 1 -->
-            <div class="ms-section hide-mobile" id="right1">
+             <div class="ms-section hide-mobile" id="right1">
                 <nav class="home-navigation navigation">
                     <ul>
                         <li class="prev"><a class="prev-slide ion-arrow-left-c"></a></li> 
@@ -729,10 +737,10 @@ require('manage/wp-blog-header.php');
             </div>
         </div>
         <div class="social">
-                    <ul>
-                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                        <li><a href=""><i class="ion-social-linkedin"></i></a></li>
+                     <ul>
+                        <li><a href="https://www.facebook.com/pages/ROGER-VALERIO-ARQUITECTURA/113394305343599" target="_blank"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#" target="_blank"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="https://ni.linkedin.com/in/roger-valerio-9082a842" target="_blank"><i class="ion-social-linkedin"></i></a></li>
                     </ul>
                 </div>
                 <div class="copyright">Roger Valerio Architects - 2016 &copy;</div>
