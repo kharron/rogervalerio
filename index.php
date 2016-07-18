@@ -5,14 +5,14 @@ require('manage/wp-blog-header.php');
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
   <head>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Roger Valerio - Diseños</title>
+    <title>Roger Valerio - Arquitectura</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="SenorCoders">
@@ -52,13 +52,10 @@ require('manage/wp-blog-header.php');
                 <ul>
                     <li data-menuanchor="first" class="active"><a href="#first">Inicio</a></li>
                     <li data-menuanchor="second"><a href="#second">Perfil</a></li>
-                    <li data-menuanchor="third"><a href="#third">Diseño</a></li>
-                     
-                     <li data-menuanchor="fourth"><a href="proyectos.php">Proyectos</a></li>
+                    <li data-menuanchor="third"><a href="#third">Arquitectura</a></li>
+                    <li data-menuanchor="fourth"><a href="#fourth">Construcción</a></li>                     
                     <li data-menuanchor="fifth"><a href="#fifth">Desarrollo</a></li>
-
-
-                    <li data-menuanchor="sixth"><a href="#sixth">Construcción</a></li>
+                     <li data-menuanchor="sixth"><a href="proyectos.php">Proyectos</a></li>
                     <li data-menuanchor="seventh"><a href="#seventh">Contacto</a></li>
 
                 </ul>
@@ -85,7 +82,7 @@ require('manage/wp-blog-header.php');
                         <div class="col-md-8 section-margin">
                             <div class="home-name"><span><span>ROGER</span></span></div>
                             <div class="home-sub-a"><span><span>Valerio</span></span></div>
-                            <div class="home-sub-b"><span>Diseños</span></div>
+                            <div class="home-sub-b"><span>Arquitectura</span></div>
                         </div>
                     </div>
                 </div>
@@ -127,21 +124,21 @@ require('manage/wp-blog-header.php');
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/bg-images/design-nav.jpg)"></div> 
                         <div class="home-link">
-                            <a href="#third"><span>diseños</span></a>
+                            <a href="#third"><span>Arquitectura</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">  
                         <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/bg-images/projects-nav.jpg)"></div>
+                        <div class="home-img" style="background-image: url(img/construction.jpg)"></div>
                         <div class="home-link">
-                            <a href="#fifth"><span>Desarrollo</span></a>
+                            <a href="#fourth"><span>Construcción</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">  
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/bg-images/services-nav.jpg)"></div> 
                         <div class="home-link">
-                            <a href="#sixth"><span>construccion</span></a>
+                            <a href="#fifth"><span>Desarrollo</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">  
@@ -155,7 +152,7 @@ require('manage/wp-blog-header.php');
                         <div class="home-overlay"></div>
                         <div class="home-img" style="background-image: url(img/bg-images/contact-nav.jpg)"></div>
                         <div class="home-link">
-                            <a href="#fourth"><span>Proyectos</span></a>
+                            <a href="#sixth"><span>Proyectos</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">  
@@ -175,13 +172,12 @@ require('manage/wp-blog-header.php');
                     <div class="center">
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
-                            <h1>DISEÑO</h1>
+                            <h1>ARQUITECTURA</h1>
                             <p>
-                                <ul>
-                                    <li><strong>Nuevas Construcciones</strong></li>
-                                    <li><strong>Remodelaciones</strong></li>
-                                    <li><strong>Interiores</strong></li>
-                                </ul>
+                                En nuestra firma establecemos una estrecha relación con nuestros clientes. Les ofrecemos un servicio personalizado para garantizar que sus ideas sean transformadas en una realidad. 
+                                <br><br>
+                               
+                                Ofrecemos diferentes servicios en el sector de la construcción que abarcan desde la planificación, diseño, construcción, supervisión y administración de proyectos, lo cual nos permite ajustarnos económicamente a las necesidades de nuestros clientes.
                                 
                                 </p>          
                               <div id="design-carousel">
@@ -260,8 +256,12 @@ require('manage/wp-blog-header.php');
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
                             <h1>Perfil</h1>
-                            <div class="about-sub">Somos Diseños Managua</div>
-                            <p>Nuestro perfil se extiende más allá de la típica firma de arquitectura. Hemos evolucionado a ser una firma de Diseño-Construcción en la cual la Arquitectura y la construcción pueden ejecutarse bajo el mismo contrato agilizando la ejecución de la obra. Ofrecemos diferentes servicios en el sector de la construcción que abarcan desde la planificación, diseño, construcción, supervisión, y administración de proyectos, lo cual nos permite ajustarnos económicamente a las necesidades de nuestros clientes.</p>
+                            <div class="about-sub">Roger Valerio y Asociados</div>
+                            <p>Es una compañía de capital propio ubicada en el sector de la construcción y el diseño con más de 25 años de experiencia en proyectos residenciales, comerciales, industriales y turísticos . Estamos formados por un equipo de arquitectos, ingenieros y administradores con amplia experiencia y conocimiento en el sector. <br>
+
+                            Nuestro perfil se extiende más allá de la típica firma de arquitectura. La empresa ha evolucionado a ser una firma de Diseño y Construcción, mediante el cual ambos rubros pueden ejecutarse bajo el mismo contrato coordinando la planificación y ejecución de obra. <br>
+
+                            Como parte de la matriz estratégica nuestra posición es establecernos y posicionarnos firmemente en el mercado y buscar alternativas en el sector del turismo.</p>
                             <hr>
                             <ul>
                                 <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup">Roger Valerio</a></li>
@@ -273,7 +273,7 @@ require('manage/wp-blog-header.php');
                                 <div class="team-background" style="background-image: url(img/about/roger-sr-head-bg.jpg)"></div>
                                 <div class="team-image" style="background-image: url(img/about/roger-sr-head.jpg)"></div>
                                 <p class="team-name">Roger Valerio</p>
-                                <p class="team-profession">Propietario/Fundador</p>
+                                <p class="team-profession">Arquitecto/Gerente General</p>
                                 <div class="team-social">
                                     <ul>
                                         <li><a href="#"><i class="ion-social-facebook"></i></a></li>
@@ -285,8 +285,10 @@ require('manage/wp-blog-header.php');
                             <div id="about-popup-1" class="about-popup-options mfp-hide">
                                 <div class="team-background" style="background-image: url(img/about/roger-jr-head-bg.jpg)"></div>
                                 <div class="team-image" style="background-image: url(img/about/roger-jr-head.jpg)"></div>
-                                <p class="team-name">Roger Valerio Junior</p>
-                                <p class="team-profession">Construcción</p>
+                                <p class="team-name">Roger Valerio G.</p>
+                                <p class="team-profession">Gerente de Operaciones</p>
+                                <p class="team-profession">EMBA INCAE</p>
+                                <p class="team-profession">Building Construction Manager - FIU</p>
                                 <div class="team-social">
                                     <ul>
                                         <li><a href=""><i class="ion-social-facebook"></i></a></li>
@@ -299,7 +301,8 @@ require('manage/wp-blog-header.php');
                                 <div class="team-background" style="background-image: url(img/about/marcel-head.jpg)"></div>
                                 <div class="team-image" style="background-image: url(img/about/marcel-head.jpg)"></div>
                                 <p class="team-name">Marcel Valerio</p>
-                                <p class="team-profession">Desarollador</p>
+                                <p class="team-profession">Gerente Administrativo</p>
+                                <p class="team-profession">Lic. En Finanzas - U. Carlos III Madrid</p>
                                 <div class="team-social">
                                     <ul>
                                         <li><a href=""><i class="ion-social-facebook"></i></a></li>
@@ -312,7 +315,8 @@ require('manage/wp-blog-header.php');
                                 <div class="team-background" style="background-image: url(img/about/marcela-head.jpg)"></div>
                                 <div class="team-image" style="background-image: url(img/about/marcela-head.jpg)"></div>
                                 <p class="team-name">Marcela Valerio</p>
-                                <p class="team-profession">Arquitectura</p>
+                                <p class="team-profession">Directora de Diseño</p>
+                                <p class="team-profession">Arquitecta - UPV - ETSASS</p>
                                 <div class="team-social">
                                     <ul>
                                         <li><a href=""><i class="ion-social-facebook"></i></a></li>
@@ -336,57 +340,21 @@ require('manage/wp-blog-header.php');
                 <div class="section-services section">
                     <div class="center">
                         <div class="col-md-7 section-margin">
+                           <div id="icsa"><img src="img/icsa.png" style="float:right"></div> 
+
                             <div class="border"></div>
                             <h1>DESARROLLO</h1>
-                            <p>Roger Valerio abre como parte de su nueva estrategia corporativa el área de desarrollos urbanísticos. 
-                                En esta nueva etapa, pretendemos crear proyectos de gran plusvalía utilizando diseños y conceptos modernos.
-                                 De manera precisa el área de diseño y construcción se complementa para la creación de proyectos que se ajusten 
-                                 a las necesidades financieras de nuestros clientes.</p>
-                            <div id="services-carousel">
-                                <div class="services-item"> 
-                                    <div class="block">
-                                    <h2>Architectural Design</h2>
-                                        <div class="border"></div>
-                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
-                                    </div>
-                                </div>
-                                <div class="services-item"> 
-                                    <div class="block">
-                                        <h2>Sustainable Architecture</h2>
-                                        <div class="border"></div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    </div>
-                                </div>
-                                <div class="services-item"> 
-                                    <div class="block">
-                                        <h2>Space Planning Design</h2>
-                                        <div class="border"></div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    </div>
-                                </div>
-                                <div class="services-item"> 
-                                    <div class="block">
-                                        <h2>Interior Design</h2>
-                                        <div class="border"></div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <nav class="navigation">
-                                <ul>
-                                    <li class="prev"><a class="prev-slide ion-arrow-left-c"></a></li> 
-                                    <li class="next"><a class="next-slide ion-arrow-right-c"></a></li> 
-                                </ul>
-                            </nav>
-                        </div>     
+                            <p>Inmobiliaria y Construcciones de Nicaragua S.A. (ICSA) nace como parte de la estrategia corporativa de expansión de RVA y plan de crecimiento en el sector inmobiliario en Nicaragua. 
+                            <br><br>
+                            En la actualidad nos encontramos en proceso de conceptualización y desarrollo de varios proyectos en el área de San Juan del Sur, Rivas. La idea es crear conceptos muy específicos destinados a un segmento de clientes (nacionales e internacionales) y pretendemos crear proyectos de gran plusvalía, utilizando diseños y conceptos modernos.</p>
+                             
                     </div> 
                 </div>
             </div>
             <!-- RIGHT 4 -->
             
             <!-- RIGHT 5 -->
-            <div class="ms-section show-mobile" id="right6">
+            <div class="ms-section show-mobile" id="right4">
                 <div class="overlay-right"></div>
                 <div class="section-services section" id="construction">
                     <div class="center">
@@ -394,10 +362,14 @@ require('manage/wp-blog-header.php');
                             <div class="border"></div>
                             <h1>construcción</h1>
                             <p>
-                                <ul>
-                                    <li ><strong>Ejecución de obra</strong></li>
-                                    <li><strong>Project Management</strong></li>
-                                </ul>   
+                                Nuestros pilares fundamentales del éxito y visión de trabajo son tres:
+
+                              
+                                    <p><strong>Proyectos en Tiempo y Forma</strong><br>Seguimiento al cronograma y programa de ejecución para asegurar una correcta administración durante la obra para entregar en el tiempo establecido. </p>
+                                    <p><strong>Administración de proyecto / Project Management</strong><br>Planificación y administración para llevar un estricto control financiero. </p>
+                                    <p><strong>Calidad</strong><br>Seguimos estrictos controles de calidad para garantizar la seguridad, durabilidad y funcionalidad de las obras que ejecutamos.</p>
+
+                                  
                             </p>
                             
                             <nav class="navigation">
@@ -413,7 +385,7 @@ require('manage/wp-blog-header.php');
             <!-- RIGHT 5 -->
 
             <!-- RIGHT 6 -->
-            <div class="ms-section show-mobile" id="right4">
+            <div class="ms-section show-mobile" id="right6">
                 <div class="overlay-right"></div>
                 <div class="section-projects section">
                     <div class="center">
@@ -421,7 +393,7 @@ require('manage/wp-blog-header.php');
                             <div class="section-one">
                                 <div class="border"></div>
                                 <h1>PROYECTOS</h1>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p> 
+                                <p>En nuestra empresa establecemos un servicio personalizado, nos acoplamos a las necesidades de nuestros clientes ofreciendo diferentes tipos de contratos, siempre asesorando de acuerdo a los alcances y necesidades del proyecto. Tenemos experiencia en diseñar y construir proyectos de gran plusvalía, producimos toda la documentación necesaria requerida para garantizar la correcta y debida ejecución de cualquier proyecto.</p> 
                                 <div class="projects-list list-a">
                                     <ul>
                                         <li><a href="proyectos.php"><strong>Ver todos los proyectos</strong></a></li>
@@ -590,7 +562,7 @@ require('manage/wp-blog-header.php');
                         <li><a href="https://ni.linkedin.com/in/roger-valerio-9082a842" target="_blank"><i class="ion-social-linkedin"></i></a></li>
                     </ul>
                 </div>
-                <div class="copyright">Roger Valerio Architects - 2016 &copy;</div>
+                <div class="copyright">Roger Valerio Arquitectura - 2016 &copy;</div>
             </div><!-- END RIGHT 7-->
 
             
