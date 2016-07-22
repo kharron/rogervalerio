@@ -58,16 +58,25 @@ $(document).ready(function() {
                 $(".loader-background").animate({width:'0%'},600,'swing').fadeOut();
                 $('.updown-navigation').fadeOut(450);
                 $('.menu-left').fadeOut(450);
+                
                 }
                 else{ 
                 $(".loader-background").animate({width:'40%'},600,'swing').fadeOut();
                 $('.updown-navigation').fadeOut(450);
                 $('.menu-left').fadeOut(450);
+                 
                 }
             } else{
                 $('.updown-navigation').fadeIn(450);
                 $('.menu-left').fadeIn(450);
+                
             }
+
+            if (index == 5) {
+                 $('#icsa').fadeIn(450);
+             }else{
+                     $('#icsa').fadeOut(450);
+                 }
             sectionimage(anchorLink, index);
             naviclose(anchorLink, index);        
         }
@@ -241,7 +250,7 @@ $(document).ready(function() {
         if (index == 4){
             $("#left4").vegas({
                 slides: [
-                  { src: background_left },
+                  { src: "./img/construction.jpg" },
                 ],
                 delay: 7000,
                 cover:false,
@@ -251,7 +260,7 @@ $(document).ready(function() {
             });
             $("#right4").vegas({
                 slides: [
-                { src: background_right },
+                { src: "./img/construction.jpg" },
                 ],
                 delay: 7000,
                 cover:false,
@@ -264,7 +273,7 @@ $(document).ready(function() {
         if (index == 6){
             $("#left6").vegas({
                 slides: [
-                  { src: "./img/background-left.jpg" },
+                  {  src: background_left },
                 ],
                 delay: 7000,
                 cover:false,
@@ -274,7 +283,7 @@ $(document).ready(function() {
             });
             $("#right6").vegas({
                 slides: [
-                { src: "./img/background-right.jpg" },
+                {  src: background_right },
                 ],
                 delay: 7000,
                 cover:false,
@@ -389,7 +398,7 @@ $(document).ready(function() {
     //DESIGN OWL-CAROUSEL
     var design = $("#design-carousel");
     design.owlCarousel({
-        navigation: false,
+        navigation: true,
         slideSpeed: 500,
         items: 3,
         pagination: false,

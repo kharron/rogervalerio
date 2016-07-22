@@ -178,7 +178,7 @@ body > .skiptranslate {
 
 .border {
 
-    background: #FEECB3;
+    background:  rgb(210, 215, 211);;
     height: 18px;
     width: 82px;
 
@@ -228,6 +228,8 @@ body > .skiptranslate {
     height: auto;
   margin: 0 auto;
     border: 6px solid #FEECB3;
+    margin: 0 auto;
+    border: 6px solid rgb(210, 215, 211);
     vertical-align: middle;
     
     background-repeat: no-repeat;
@@ -313,7 +315,7 @@ body > .skiptranslate {
 
 .menu-sub {
 
-    color: #F8CB42;
+    color:  rgb(166, 171, 167);
     font-size: 18px;
     left: 60px;
     font-weight: 300;
@@ -358,7 +360,7 @@ body > .skiptranslate {
 
 .menu-left ul li a:hover {
 
-    color: #F8CB42;
+    color: rgb(166, 171, 167);
    -webkit-transition: all 200ms linear;
       -moz-transition: all 200ms linear;
        -ms-transition: all 200ms linear;
@@ -369,7 +371,7 @@ body > .skiptranslate {
 
 .menu-left ul .active a {
 
-    color: #F8CB42;
+    color: rgb(166, 171, 167);
    -webkit-transition: all 200ms linear;
       -moz-transition: all 200ms linear;
        -ms-transition: all 200ms linear;
@@ -409,7 +411,7 @@ body > .skiptranslate {
 
 .social ul li i:hover {
 
-    color: #f8cb42;
+    color: rgb(166, 171, 167);
    -webkit-transition: all 200ms linear;
       -moz-transition: all 200ms linear;
        -ms-transition: all 200ms linear;
@@ -424,7 +426,7 @@ body > .skiptranslate {
 
 .home-name .bigtext-line0 span::before {
 
-    background: #FEECB3;
+    background: rgb(210, 215, 211);
     content: "";
     height: 18px;
     line-height: 0;
@@ -438,7 +440,7 @@ body > .skiptranslate {
 
     color: #3D3838;
     font-size: 115px;
-    font-weight: 800;
+    font-weight: 500;
     letter-spacing: 10px;
     text-align: right;
     line-height: 0.8;
@@ -449,7 +451,7 @@ body > .skiptranslate {
 .home-sub-a {
 
     color: #3D3838;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 7px;
     line-height: 0.8;
     text-align: right;
@@ -457,13 +459,14 @@ body > .skiptranslate {
 
 .home-sub-b {
 
-    color: #FFC000;
+    color: rgb(166, 171, 167);
     font-size: 23px;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 5px;
     margin-top: 35px;
     margin-right: 8px;
     text-align: right;
+
 
 }
 
@@ -562,6 +565,7 @@ body > .skiptranslate {
 
     content: "";
     height: 6px;
+    background: rgb(210, 215, 211) !important;
     opacity: 0;
     position: absolute;
     top: -14px;
@@ -725,7 +729,7 @@ body > .skiptranslate {
 
 .section-about ul li a:hover {
 
-    color: #f8cb42;
+    color: rgb(166, 171, 167);
    -webkit-transition: all 200ms linear;
       -moz-transition: all 200ms linear;
        -ms-transition: all 200ms linear;
@@ -754,7 +758,7 @@ body > .skiptranslate {
 
     background-position: center center;
     background-repeat: no-repeat;
-    border: 4px solid #FEECB3;
+    border: 4px solid rgb(210, 215, 211);
     height: 150px;
     margin: 0 auto;
     position: relative;
@@ -815,7 +819,7 @@ body > .skiptranslate {
 
 .team-social ul li i:hover {
 
-    color: #EBD9A0;
+    color: rgb(166, 171, 167);
    -webkit-transition: all 200ms linear;
       -moz-transition: all 200ms linear;
        -ms-transition: all 200ms linear;
@@ -843,13 +847,13 @@ body > .skiptranslate {
     margin: 0 auto;
     position: relative;
     width: 350px;
-    border: 2px solid #FEECB3;
+    border: 2px solid rgb(210, 215, 211);
 
 }
 
 hr {
 
-    border-color: #FEECB3 !important;
+    border-color: rgb(210, 215, 211) !important;
     border-width: 3px 0 0 !important;
 }
 
@@ -932,7 +936,7 @@ hr {
 .navigation ul li {
 
     font-size: 14px;
-    background: #FEECB3;
+    background: rgb(210, 215, 211);
     display: inline-block;
     height: 40px;
     line-height: 40px;
@@ -960,7 +964,7 @@ hr {
 
 .navigation ul li:hover {
 
-    background: #FFF4D3;
+    background: rgb(166, 171, 167);
    -webkit-transition: all 200ms linear;
       -moz-transition: all 200ms linear;
        -ms-transition: all 200ms linear;
@@ -1025,7 +1029,7 @@ hr {
 
 .projects-list {
 
-    border-left: 6px solid #FEECB3;
+    border-left: 6px solid rgb(210, 215, 211);
 
 }
 
@@ -1092,7 +1096,7 @@ hr {
 
 .services-item .border {
 
-    background: #FEECB3;
+    background: rgb(210, 215, 211);
     height: 6px;
     width: 40px;
     margin-bottom: 10px;
@@ -1296,12 +1300,12 @@ button[type="submit"]:hover {
 
 #construction{
   
-  background: #605b5b;
+  background: #333;
 }
 
-#construction p ul li{ 
+#construction p, #construction h1 { 
 
-  color: beige !important;
+  color: #a49c9c !important;
 }
 
 /* ==================================================================
@@ -1566,4 +1570,15 @@ button[type="submit"]:hover {
 
 .project-own-list{
   padding-left: 10px;
+}
+
+#icsa{
+      font-size: 45px;
+    right: 60px;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: 2px;
+    position: fixed;
+    top: 35px;
+    color: #474444;
 }

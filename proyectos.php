@@ -4,7 +4,7 @@ require('manage/wp-blog-header.php');
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
   <head>
 
@@ -739,7 +739,7 @@ require('manage/wp-blog-header.php');
                         <li><a href="https://ni.linkedin.com/in/roger-valerio-9082a842" target="_blank"><i class="ion-social-linkedin"></i></a></li>
                     </ul>
                 </div>
-                <div class="copyright">Roger Valerio Architects - 2016 &copy;</div>
+                <div class="copyright">Roger Valerio Arquitectura - 2016 &copy;</div>
             </div>
         <!-- END MS-RIGHT -->
 
