@@ -181,7 +181,8 @@ require('manage/wp-blog-header.php');
                                
                                 Ofrecemos diferentes servicios en el sector de la construcción que abarcan desde la planificación, diseño, construcción, supervisión y administración de proyectos, lo cual nos permite ajustarnos económicamente a las necesidades de nuestros clientes.
                                 
-                                </p>          
+                                </p>      
+                                    
                               <div id="design-carousel">
 															<?php
 																$images= get_field('design_gallery', 6);

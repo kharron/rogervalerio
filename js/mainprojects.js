@@ -547,12 +547,14 @@ $(document).ready(function() {
     });
    
     //DESIGN IMAGES LIGHTBOX
-    $('.design-popup-link').magnificPopup({
-        type:'image',
-        mainClass: 'mfp-fade',
-        removalDelay: 400
-    });
-    
+   $('.design-popup-link').magnificPopup({
+       type:'image',
+       closeBtnInside: false,
+       mainClass: 'mfp-fade',
+       removalDelay: 400,  gallery: {
+     enabled: true 
+   }
+   });
     //GOOGLE MAP LIGHTBOX
     $('.map-popup-link').magnificPopup({
         type: 'inline',

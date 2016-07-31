@@ -398,7 +398,7 @@ $(document).ready(function() {
     //DESIGN OWL-CAROUSEL
     var design = $("#design-carousel");
     design.owlCarousel({
-        navigation: true,
+        navigation: false,
         slideSpeed: 500,
         items: 3,
         pagination: false,
@@ -442,12 +442,15 @@ $(document).ready(function() {
         removalDelay: 400
     });
    
-    //DESIGN IMAGES LIGHTBOX
-    $('.design-popup-link').magnificPopup({
-        type:'image',
-        mainClass: 'mfp-fade',
-        removalDelay: 400
-    });
+   //DESIGN IMAGES LIGHTBOX
+   $('.design-popup-link').magnificPopup({
+       type:'image',
+       closeBtnInside: false,
+       mainClass: 'mfp-fade',
+       removalDelay: 400,  gallery: {
+     enabled: true 
+   }
+   });
     
     //GOOGLE MAP LIGHTBOX
     $('.map-popup-link').magnificPopup({
