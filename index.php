@@ -177,11 +177,11 @@ require('manage/wp-blog-header.php');
                             <div class="border"></div>
                             <h1>ARQUITECTURA</h1>
                             <p>
+
                                                            
                                 </p>  
                              <p><?php the_field('descripcion_arquitectura', 6); ?></p>
-
-  
+             
                                     
                               <div id="design-carousel">
                                 <?php
@@ -199,7 +199,8 @@ require('manage/wp-blog-header.php');
                                     }
 
                             ?>
-                                                                                 
+
+								                                                                               
                               
                               
                             </div>
@@ -325,10 +326,12 @@ require('manage/wp-blog-header.php');
                     <div class="center">
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
+
                             <h1>CONSTRUCCION</h1>
                            
                              <p><?php the_field('descripcion_de_construccion', 239); ?></p>
-                              
+
+                          
                             
                             
                         </div>     
