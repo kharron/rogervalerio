@@ -82,6 +82,7 @@ require('manage/wp-blog-header.php');
                 <div class="section-home section">
                     <div class="center">
                         <div class="col-md-8 section-margin">
+                            <div class="menu-name"><img src="img/only-logo.png"></div>
                             <div class="home-name"><span><span>ROGER</span></span></div>
                             <div class="home-sub-a"><span><span>Valerio</span></span></div>
                             <div class="home-sub-b"><span>Arquitectura</span></div>
@@ -176,66 +177,38 @@ require('manage/wp-blog-header.php');
                             <div class="border"></div>
                             <h1>ARQUITECTURA</h1>
                             <p>
-                                En nuestra firma establecemos una estrecha relación con nuestros clientes. Les ofrecemos un servicio personalizado para garantizar que sus ideas sean transformadas en una realidad. 
+                               <!-- En nuestra firma establecemos una estrecha relación con nuestros clientes. Les ofrecemos un servicio personalizado para garantizar que sus ideas sean transformadas en una realidad. 
                                 <br><br>
                                
-                                Ofrecemos diferentes servicios en el sector de la construcción que abarcan desde la planificación, diseño, construcción, supervisión y administración de proyectos, lo cual nos permite ajustarnos económicamente a las necesidades de nuestros clientes.
+                                Ofrecemos diferentes servicios en el sector de la construcción que abarcan desde la planificación, diseño, construcción, supervisión y administración de proyectos, lo cual nos permite ajustarnos económicamente a las necesidades de nuestros clientes.-->
+
+
+
                                 
-                                </p>      
+                                </p>  
+                             <p><?php var_dump(the_field('descripcion_arquitectura', 6)); ?></p>
+
+  
                                     
                               <div id="design-carousel">
-															<?php
-																$images= get_field('design_gallery', 6);
-																foreach($images as $image){
+								<?php
+									$images= get_field('design_gallery', 6);
+									foreach($images as $image){
 															?>
                                 <div class="design-item design-height">
-																<a class="design-popup-link mfp-fade" href="<?= $image['url']; ?>">
+									<a class="design-popup-link mfp-fade" href="<?= $image['url']; ?>">
                                         <div class="design-overlay"></div>
-																				<div class="design-img" style="background-image: url(<?= $image['url']; ?>)"></div>
+								<div class="design-img" style="background-image: url(<?= $image['url']; ?>)"></div>
                                     </a>
                                 </div>
 
-															<?php
-																	}
+								<?php
+									}
 
-															?>
-
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/designs/design-1.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/designs/design-1.jpg)"></div>
-                                    </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/designs/design-1.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/designs/design-1.jpg)"></div>
-                                    </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/designs/design-2.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/designs/design-2.jpg)"></div>
-                                    </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/designs/design-3.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/designs/design-3.jpg)"></div>
-                                    </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/designs/design-4.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/designs/design-4.jpg)"></div>
-                                    </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/designs/design-5.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/designs/design-5.jpg)"></div>
-                                    </a>
-                                </div>
+							?>
+                                                                                 
+                              
+                              
                             </div>
                             <nav class="navigation">
                                 <ul>
@@ -265,6 +238,8 @@ require('manage/wp-blog-header.php');
                             Nuestro perfil se extiende más allá de la típica firma de arquitectura. La empresa ha evolucionado a ser una firma de Diseño y Construcción, mediante el cual ambos rubros pueden ejecutarse bajo el mismo contrato coordinando la planificación y ejecución de obra. <br>
 
                             Como parte de la matriz estratégica nuestra posición es establecernos y posicionarnos firmemente en el mercado y buscar alternativas en el sector del turismo.</p>
+                            <p><?php the_field('descripcion_perfil', 224); ?></p>
+
                             <hr>
                             <ul>
                                 <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup">Roger Valerio</a></li>
@@ -363,7 +338,7 @@ require('manage/wp-blog-header.php');
                     <div class="center">
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
-                            <h1>construcción</h1>
+                            <h1>CONTRUCCION</h1>
                             <p>
                                 Nuestros pilares fundamentales del éxito y visión de trabajo son tres:
 
