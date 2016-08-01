@@ -82,6 +82,7 @@ require('manage/wp-blog-header.php');
                 <div class="section-home section">
                     <div class="center">
                         <div class="col-md-8 section-margin">
+                            <div class="menu-name"><img src="img/only-logo.png"></div>
                             <div class="home-name"><span><span>ROGER</span></span></div>
                             <div class="home-sub-a"><span><span>Valerio</span></span></div>
                             <div class="home-sub-b"><span>Arquitectura</span></div>
@@ -124,42 +125,42 @@ require('manage/wp-blog-header.php');
                 <div id="home-carousel">
                     <div class="home-item home-height">  
                         <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/bg-images/design-nav.jpg)"></div> 
+                        <div class="home-img" style="background-image: url(<?php the_field('arquitectura_background', 276); ?>)"></div> 
                         <div class="home-link">
                             <a href="#third"><span>Arquitectura</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">  
                         <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/construction.jpg)"></div>
+                        <div class="home-img" style="background-image: url(<?php the_field('construccion_background', 276); ?>)"></div>
                         <div class="home-link">
                             <a href="#fourth"><span>Construcción</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">  
                         <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/bg-images/services-nav.jpg)"></div> 
+                        <div class="home-img" style="background-image: url(<?php the_field('desarrollo_background', 276); ?>)"></div> 
                         <div class="home-link">
                             <a href="#fifth"><span>Desarrollo</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">  
                         <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/bg-images/about-nav.jpg)"></div>
+                        <div class="home-img" style="background-image: url(<?php the_field('perfil_background', 276); ?>"></div>
                         <div class="home-link">
                             <a href="#second"><span>perfil</span></a>
                         </div>
                     </div>
                       <div class="home-item home-height">  
                         <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/bg-images/contact-nav.jpg)"></div>
+                        <div class="home-img" style="background-image: url(<?php the_field('proyectos_background', 276); ?>)"></div>
                         <div class="home-link">
                             <a href="#sixth"><span>Proyectos</span></a>
                         </div>
                     </div>
                     <div class="home-item home-height">  
                         <div class="home-overlay"></div>
-                        <div class="home-img" style="background-image: url(img/bg-images/contact-nav.jpg)"></div>
+                        <div class="home-img" style="background-image: url(<?php the_field('contacto_background', 276); ?>)"></div>
                         <div class="home-link">
                             <a href="#seventh"><span>contacto</span></a>
                         </div>
@@ -176,66 +177,31 @@ require('manage/wp-blog-header.php');
                             <div class="border"></div>
                             <h1>ARQUITECTURA</h1>
                             <p>
-                                En nuestra firma establecemos una estrecha relación con nuestros clientes. Les ofrecemos un servicio personalizado para garantizar que sus ideas sean transformadas en una realidad. 
-                                <br><br>
-                               
-                                Ofrecemos diferentes servicios en el sector de la construcción que abarcan desde la planificación, diseño, construcción, supervisión y administración de proyectos, lo cual nos permite ajustarnos económicamente a las necesidades de nuestros clientes.
-                                
-                                </p>      
-                             <p><?php var_dump(the_field('descripcion_arquitectura', 6)); ?></p>
+                                                           
+                                </p>  
+                             <p><?php the_field('descripcion_arquitectura', 6); ?></p>
+
+  
+                                    
                               <div id="design-carousel">
-															<?php
-																$images= get_field('design_gallery', 6);
-																foreach($images as $image){
-															?>
+                                <?php
+                                    $images= get_field('design_gallery', 6);
+                                    foreach($images as $image){
+                                                            ?>
                                 <div class="design-item design-height">
-																<a class="design-popup-link mfp-fade" href="<?= $image['url']; ?>">
+                                    <a class="design-popup-link mfp-fade" href="<?= $image['url']; ?>">
                                         <div class="design-overlay"></div>
-																				<div class="design-img" style="background-image: url(<?= $image['url']; ?>)"></div>
+                                <div class="design-img" style="background-image: url(<?= $image['url']; ?>)"></div>
                                     </a>
                                 </div>
 
-															<?php
-																	}
+                                <?php
+                                    }
 
-															?>
-
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/designs/design-1.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/designs/design-1.jpg)"></div>
-                                    </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/designs/design-1.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/designs/design-1.jpg)"></div>
-                                    </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/designs/design-2.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/designs/design-2.jpg)"></div>
-                                    </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/designs/design-3.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/designs/design-3.jpg)"></div>
-                                    </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/designs/design-4.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/designs/design-4.jpg)"></div>
-                                    </a>
-                                </div>
-                                <div class="design-item design-height">
-                                    <a class="design-popup-link mfp-fade" href="img/designs/design-5.jpg">
-                                        <div class="design-overlay"></div>
-                                        <div class="design-img" style="background-image: url(img/designs/design-5.jpg)"></div>
-                                    </a>
-                                </div>
+                            ?>
+                                                                                 
+                              
+                              
                             </div>
                             <nav class="navigation">
                                 <ul>
@@ -260,15 +226,13 @@ require('manage/wp-blog-header.php');
                             <div class="border"></div>
                             <h1>Perfil</h1>
                             <div class="about-sub">Roger Valerio y Asociados</div>
-                            <p>Es una compañía de capital propio ubicada en el sector de la construcción y el diseño con más de 25 años de experiencia en proyectos residenciales, comerciales, industriales y turísticos . Estamos formados por un equipo de arquitectos, ingenieros y administradores con amplia experiencia y conocimiento en el sector. <br>
+                           
+                            <p><?php the_field('descripicion_perfil', 224); ?></p>
 
-                            Nuestro perfil se extiende más allá de la típica firma de arquitectura. La empresa ha evolucionado a ser una firma de Diseño y Construcción, mediante el cual ambos rubros pueden ejecutarse bajo el mismo contrato coordinando la planificación y ejecución de obra. <br>
-
-                            Como parte de la matriz estratégica nuestra posición es establecernos y posicionarnos firmemente en el mercado y buscar alternativas en el sector del turismo.</p>
                             <hr>
                             <ul>
                                 <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup">Roger Valerio</a></li>
-                                <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-1">Roger Valerio Junior</a></li>
+                                <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-1">Roger Valerio G</a></li>
                                 <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-2">Marcel Valerio</a></li>
                                 <li><a class="about-popup-link mfp-fade" data-mfp-src="#about-popup-3">Marcela Valerio</a></li>
                             </ul> 
@@ -347,10 +311,8 @@ require('manage/wp-blog-header.php');
 
                             <div class="border"></div>
                             <h1>DESARROLLO</h1>
-                            <p>Inmobiliaria y Construcciones de Nicaragua S.A. (ICSA) nace como parte de la estrategia corporativa de expansión de RVA y plan de crecimiento en el sector inmobiliario en Nicaragua. 
-                            <br><br>
-                            En la actualidad nos encontramos en proceso de conceptualización y desarrollo de varios proyectos en el área de San Juan del Sur, Rivas. La idea es crear conceptos muy específicos destinados a un segmento de clientes (nacionales e internacionales) y pretendemos crear proyectos de gran plusvalía, utilizando diseños y conceptos modernos.</p>
-                             
+                             <p><?php the_field('descripcion_de_desarrollo', 235); ?></p>
+                                    
                     </div> 
                 </div>
             </div>
@@ -363,17 +325,10 @@ require('manage/wp-blog-header.php');
                     <div class="center">
                         <div class="col-md-7 section-margin">
                             <div class="border"></div>
-                            <h1>construcción</h1>
-                            <p>
-                                Nuestros pilares fundamentales del éxito y visión de trabajo son tres:
-
+                            <h1>CONSTRUCCION</h1>
+                           
+                             <p><?php the_field('descripcion_de_construccion', 239); ?></p>
                               
-                                    <p><strong>Proyectos en Tiempo y Forma</strong><br>Seguimiento al cronograma y programa de ejecución para asegurar una correcta administración durante la obra para entregar en el tiempo establecido. </p>
-                                    <p><strong>Administración de proyecto / Project Management</strong><br>Planificación y administración para llevar un estricto control financiero. </p>
-                                    <p><strong>Calidad</strong><br>Seguimos estrictos controles de calidad para garantizar la seguridad, durabilidad y funcionalidad de las obras que ejecutamos.</p>
-
-                                  
-                            </p>
                             
                             
                         </div>     
@@ -391,13 +346,12 @@ require('manage/wp-blog-header.php');
                             <div class="section-one">
                                 <div class="border"></div>
                                 <h1>PROYECTOS</h1>
-                                <p>En nuestra empresa establecemos un servicio personalizado, nos acoplamos a las necesidades de nuestros clientes ofreciendo diferentes tipos de contratos, siempre asesorando de acuerdo a los alcances y necesidades del proyecto. Tenemos experiencia en diseñar y construir proyectos de gran plusvalía, producimos toda la documentación necesaria requerida para garantizar la correcta y debida ejecución de cualquier proyecto.</p> 
+                              
+                                <p><?php the_field('descripcion_de_proyectos', 26); ?></p>
                                 <div class="projects-list list-a">
                                     <ul>
                                         <li><a href="proyectos.php"><strong>Ver todos los proyectos</strong></a></li>
-                                      <!--  <li><a class="projects-link-1"><span>Cosas - </span>Proyecto en Español</a></li>
-                                        <li><a class="projects-link-2"><span>Otra Cosas & Diseños - </span>Sed ut perspiciat</a></li>
-                                        <li><a class="projects-link-3"><span>Oficina & Comercial  - </span>Otra proyecto en espanol</a></li>-->
+                                      
                                     </ul>
                                 </div>
                             </div>
@@ -463,49 +417,6 @@ require('manage/wp-blog-header.php');
 
                                  </div>
 
-                                
-
-                                                      
-
-                                                
-
-
-
-                                      
-
- 
-                               
-                                
-                            <div class="section-three p-h1 display-none">
-                                <div class="border"></div>
-                                <h1>Honoré d'Urfé School Complex</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laborum excepturi quasi suscipit, perspiciatis eligendi sit nesciunt provident quaerat cupiditate maiores pariatur iure eaque.</p>
-                                <div class="projects-list list-b">
-                                    <ul>
-                                        <li><span>Design team </span>: Maria Kers , John Willis</li>
-                                        <li><span>Projects partners </span>: John Willis + Partners.</li>
-                                        <li><span>Client </span>: Yellew Associates.</li>
-                                        <li><span>Details </span>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nisi, iusto amet dignissimos expedita alias libero temporibus earum? Mollitia dolor illum.</li>
-                                    </ul>
-                                </div>
-                                <nav class="navigation">
-                                    <ul>
-                                        <li class="close-projects"><a class="ion-close-round"></a></li> 
-                                    </ul>
-                                </nav>
-                            </div>
-                            <div class="section-four p-h1 display-none">
-                                <div class="border"></div>
-                                <h1>Novancia Business School</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium laborum excepturi quasi suscipit, perspiciatis eligendi sit nesciunt provident quaerat cupiditate maiores pariatur iure eaque.</p>
-                                <div class="projects-list list-b">
-                                    <ul>
-                                        <li><span>Design team </span>: Maria Kers , John Willis</li>
-                                        <li><span>Projects partners </span>: John Willis + Partners.</li>
-                                        <li><span>Client </span>: Yellew Associates.</li>
-                                        <li><span>Details </span>: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nisi, iusto amet dignissimos expedita alias libero temporibus earum? Mollitia dolor illum.</li>
-                                    </ul>
-                                </div>
                                 <nav class="navigation">
                                     <ul>
                                         <li class="close-projects"><a class="ion-close-round"></a></li> 
@@ -591,6 +502,29 @@ require('manage/wp-blog-header.php');
 
         var background_left = "<?php echo the_field('background_image_left', 26); ?>";
         var background_right = "<?php echo the_field('background_image_right', 26); ?>";
+
+        var background_profile_left = "<?php echo the_field('background_profile_left', 224); ?>";
+
+        var background_profile_right = "<?php echo the_field('background_profile_right', 224); ?>";
+
+
+        var background_arquitectura_left = "<?php echo the_field('background_arquitectura_left', 6); ?>";
+        
+        var background_arquitectura_right = "<?php echo the_field('background_arquitectura_right', 6); ?>";
+
+
+           var background_construccion_left = "<?php echo the_field('background_construccion_left', 239); ?>";
+        
+        var background_construccion_right = "<?php echo the_field('background_construccion_right', 239); ?>";
+
+
+           var background_development_left = "<?php echo the_field('background_development_left', 235); ?>";
+        
+        var background_development_right = "<?php echo the_field('background_development_right', 235); ?>";
+
+          var background_contact_left = "<?php echo the_field('background_contact_left', 267); ?>";
+        
+        var background_contact_right = "<?php echo the_field('background_contact_right', 267); ?>";
 
     </script>
     <script type="text/javascript" src="js/main.js"></script>

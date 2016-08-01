@@ -83,6 +83,7 @@ require('manage/wp-blog-header.php');
                 <div class="section-home section">
                     <div class="center">
                         <div class="col-md-8 section-margin">
+                          <div class="menu-name"><img src="img/only-logo.png"></div>
                             <div class="home-name"><span><span>ROGER</span></span></div>
                             <div class="home-sub-a"><span><span>Valerio</span></span></div>
                             <div class="home-sub-b"><span>Lista de Proyectos</span></div>
