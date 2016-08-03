@@ -6004,3 +6004,8 @@ p > video {
 		padding: 0;
 	}
 }
+
+.wp-editor-wrap {
+    position: relative;
+    display: none;
+}

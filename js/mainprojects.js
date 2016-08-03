@@ -15,7 +15,8 @@ Version: 1.2
  * 4.0 - Detect mobile
  * 5.0 - Resize
  * 6.0 - Close button projects
- * 7.0 - Section image background
+ * 7.0 - Section 
+  background
  * 8.0 - Fade in-out projects sections
  * 9.0 - Bigtext
  * 10.0- Homeheight owl-carousel
@@ -47,7 +48,7 @@ $(document).ready(function() {
     //MULTISCROLL
     $('#main-container').multiscroll({
         sectionsColor: ['white','white','white','white','white','white', 'white', 'white'],
-        anchors: ['first','second','third','fourth','fifth','sixth', 'seventh', 'eighth'],
+        anchors: ['slide1','slide2','slide3','slide4','slide5','slide6', 'slide7', 'slide8'],
         easing:'easeInOutCubic',
         menu:'.menu-left',
         scrollingSpeed: 1000,
@@ -163,170 +164,6 @@ $(document).ready(function() {
     //SECTION IMAGE BACKGROUND
     function sectionimage(anchorLink, index){
         //ABOUT
-
-        if (index == 2){
-            $("#left2").vegas({
-                slides: [
-                { src:  project2_background_left },
-                ],
-                delay: 7000,
-                cover:false,
-                align:'right',
-                timer:false,
-                animation: [ 'kenburns' ]
-            });
-            $("#right2").vegas({
-                slides: [
-                { src: project1_background_right  },
-                ],
-                delay: 7000,
-                cover:false,
-                align:'left',
-                timer:false,
-                animation: [ 'kenburns' ]
-            });
-        }
-        //DESIGN
-        if (index == 3){
-            $("#left3").vegas({
-                slides: [
-                { src: project1_background_left },
-                ],
-                delay: 7000,
-                cover:false,
-                align:'right',
-                timer:false,
-                animation: [ 'kenburns' ]
-            });
-            $("#right3").vegas({
-                slides: [
-                { src: project2_background_right },
-                ],
-                delay: 7000,
-                cover:false,
-                align:'left',
-                timer:false,
-                animation: [ 'kenburns' ]
-            });
-        }
-        //PROJECTS
-        if (index == 5){
-            $("#left5").vegas({
-                slides: [ 
-                { src: project4_background_left },
-                ],
-                delay: 7000,
-                cover:false,
-                autoplay:false,
-                align:'right',
-                timer:false,
-                animation: [ 'kenburns' ]
-            });
-            $("#right5").vegas({
-                slides: [ 
-                { src: project4_background_right },
-                ],
-                delay: 7000,
-                cover:false,
-                autoplay:false,
-                align:'left',
-                timer:false,
-                animation: [ 'kenburns' ]
-            });
-        }
-        //PROYECTOS
-        if (index == 4){
-            $("#left4").vegas({
-                slides: [
-                  { src:  project3_background_left },
-                ],
-                delay: 7000,
-                cover:false,
-                align:'right',
-                timer:false,
-                animation: [ 'kenburns' ]
-            });
-            $("#right4").vegas({
-                slides: [
-                { src:  project3_background_right },
-                ],
-                delay: 7000,
-                cover:false,
-                align:'left',
-                timer:false,
-                animation: [ 'kenburns' ]
-            });
-        }
-        //CONTACT
-        if (index == 6){
-            $("#left6").vegas({
-                slides: [
-                  { src: project5_background_left },
-                ],
-                delay: 7000,
-                cover:false,
-                align:'right',
-                timer:false,
-                animation: [ 'kenburns' ]
-            });
-            $("#right6").vegas({
-                slides: [
-                { src: project5_background_right },
-                ],
-                delay: 7000,
-                cover:false,
-                align:'left',
-                timer:false,
-                animation: [ 'kenburns' ]
-            });
-        }
-
-         if (index == 7){
-            $("#left7").vegas({
-                slides: [
-                  { src: project6_background_left },
-                ],
-                delay: 7000,
-                cover:false,
-                align:'right',
-                timer:false,
-                animation: [ 'kenburns' ]
-            });
-            $("#right7").vegas({
-                slides: [
-                { src: project6_background_right },
-                ],
-                delay: 7000,
-                cover:false,
-                align:'left',
-                timer:false,
-                animation: [ 'kenburns' ]
-            });
-        }
-
-
-          if (index == 8){
-            $("#left8").vegas({
-                slides: [
-                  { src: project6_background_left },
-                ],
-                delay: 7000,
-                cover:false,
-                align:'right',
-                timer:false,
-                animation: [ 'kenburns' ]
-            });
-            $("#right8").vegas({
-                slides: [
-                { src: project6_background_right },
-                ],
-                delay: 7000,
-                cover:false,
-                align:'left',
-                timer:false,
-                animation: [ 'kenburns' ]
-            });
-        }
 
 
     }
@@ -501,7 +338,432 @@ $(document).ready(function() {
     $(".navigation ul .prev").on("click", function() {
         design.trigger("owl.prev");
     });
-      var design = $("#design-carousel-7");
+    
+
+    var design = $("#design-carousel-7");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-8");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-9");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-10");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-11");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-12");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-13");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-14");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-15");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-16");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-17");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-18");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-19");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-20");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-21");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-22");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-23");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-24");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-25");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-26");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-27");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-28");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-29");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-30");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-31");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    
+
+    });
+
+
+    var design = $("#design-carousel-32");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-33");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-34");
+    design.owlCarousel({
+        navigation: false,
+        slideSpeed: 500,
+        items: 3,
+        pagination: false,
+        itemsDesktop : [1200,3]
+    });
+    $(".navigation ul .next").on("click", function() {
+        design.trigger("owl.next");
+    });
+    $(".navigation ul .prev").on("click", function() {
+        design.trigger("owl.prev");
+    });
+
+    var design = $("#design-carousel-35");
     design.owlCarousel({
         navigation: false,
         slideSpeed: 500,
@@ -657,6 +919,6 @@ $(window).load(function() {
    
    //ADD #FIRST ON LOAD
    window.location.hash = '';
-   window.location.hash = "first";
+   window.location.hash = "slide1";
   
 });

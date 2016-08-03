@@ -455,8 +455,13 @@ body > .skiptranslate {
     letter-spacing: 7px;
     line-height: 0.8;
     text-align: right;
+    
 }
 
+	.home-sub-a span{
+
+		font-size: 115px !important;
+	}
 .home-sub-b {
 
     color: rgb(166, 171, 167);
@@ -1536,7 +1541,19 @@ button[type="submit"]:hover {
   
     }
 
+     .home-sub-a span{
+      font-size: 64px !important;
+
+    }
+
 }
+
+@media (max-width: 548px) {
+.home-sub-a span{
+      font-size: 64px !important;
+
+    }
+  }
 
 @media (min-width: 468px) and (max-width: 1024px){
 
@@ -1545,6 +1562,8 @@ button[type="submit"]:hover {
         font-size: 55px !important;
   
     }
+
+
 
 }
 
