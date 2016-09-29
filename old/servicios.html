@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Roger Valerio - Arquitectura</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <script>
+		array_imagen = new Array(10)
+		array_imagen[0] = new Image(350,160)
+		array_imagen[0].src = "images/banner/a-01.png"
+		array_imagen[1] = new Image(350,160)
+		array_imagen[1].src = "images/banner/a-02.png"
+		array_imagen[2] = new Image(350,160)
+		array_imagen[2].src = "images/banner/a-03.png"
+		array_imagen[3] = new Image(350,160)
+		array_imagen[3].src = "images/banner/a-04.png"
+		array_imagen[4] = new Image(350,160)
+		array_imagen[4].src = "images/banner/a-05.png"
+		array_imagen[5] = new Image(350,160)
+		array_imagen[5].src = "images/banner/a-06.png"
+		array_imagen[6] = new Image(350,160)
+		array_imagen[6].src = "images/banner/a-07.png"
+		array_imagen[7] = new Image(350,160)
+		array_imagen[7].src = "images/banner/a-08.png"
+		array_imagen[8] = new Image(350,160)
+		array_imagen[8].src = "images/banner/a-09.png"
+		array_imagen[9] = new Image(350,160)
+		array_imagen[9].src = "images/banner/a-10.png"
+		contador = 0
+		
+		function alternar_banner(){
+			window.document["banner"].src = array_imagen[contador].src
+			/*window.document.links[0].href = array_url[contador]*/
+			contador ++
+			contador = contador % array_imagen.length
+			setTimeout("alternar_banner()",3000)
+		}
+	</script>
+    <script type="text/javascript">
+		function show(bloq) {
+			obj = document.getElementById(bloq);
+			obj.style.display = (obj.style.display=='none') ? 'block' : 'none';
+			}
+	</script>
+</head>
+
+<body onload="alternar_banner();">
+<!-- saved from url=(0013)about:internet -->
+<div align="center">
+	<div style="width:900px; height:120px;">
+		<div class="banner">
+			<img src="#" name="banner"/>
+		</div>
+		<div class="logo">
+    		<img src="images/logo.png" width="334" height="120" />
+    	</div>
+    </div>
+	<div class="infotxt">
+    	<div class="div-menu">
+        	<span class="menu"><a href="index.html" class="ms">inicio</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="perfil.html" class="ms">perfil</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="servicios.html" class="ms">servicios</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="proyectos.html" class="ms">proyectos</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="desarrollo.html" class="ms">desarrollo</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="contactenos.html" class="ms">contáctenos</a></span>
+        </div>
+   	  <div class="s-texto">
+        	<h1>SERVICIOS</h1>
+            <p><strong>Arquitectura <a onmouseover="show('arq')" onmouseout="show('arq')">[+]</a></strong></p>
+            <ul>
+            	<li>Residencial</li>
+                <li>Comercial</li>
+                <li>Industrial</li>
+                <li>Turístico</li>
+                <li>Interés Social</li>
+                <li>Diseño Urbano</li>
+            </ul>
+            <p><strong>Diseño y Construcción <a onmouseover="show('dyc')" onmouseout="show('dyc')">[+]</a></strong></p>
+            <ul>
+            	<li>Nuevas Construcciones</li>
+                <li>Remodelaciones</li>
+                <li>Interiores</li>
+            </ul>
+            <p><strong>Construcción <a onmouseover="show('con')" onmouseout="show('con')">[+]</a></strong></p>
+            <ul>
+            	<li>Ejecución de obra</li>
+            	<li>Project Management</li>
+            </ul>
+      </div>
+      <div id="arq" style="display:none;">
+      	<div class="s-div">
+      		<img src="images/div-s.png" width="10" height="400" />
+      	</div>
+      	<div class="ss-texto">
+    		<p><strong>ARQUITECTURA</strong></p>
+      		<p>En nuestra firma establecemos una fuerte relación con nuestros clientes. Les ofrecemos un servicio personalizado, en el cual los clientes pueden participar en las diferentes fases del diseño. Ofrecemos diferentes tipos de contratos de acuerdo a la necesidad del proyecto. Tenemos amplia experiencia en trabajar a contrato cerrado y por administración.</p>
+      		<p>Tenemos experiencia en diseñar proyectos de gran plusvalía, elaborando los planos constructivos requeridos para la debida ejecución de una obra.</p>
+      	</div>
+      </div>
+      <div id="dyc" style="display:none;">
+      	<div class="s-div">
+      		<img src="images/div-s.png" width="10" height="400" />
+      	</div>
+      	<div class="ss-texto">
+    		<p><strong>DISE&Ntilde;O Y CONSTRUCCI&Oacute;N</strong></p>
+      		<p>Ejecutamos ambos bajo el mismo contrato, con lo que pretendemos ser más eficientes en todas distintas etapas que componen un proyecto. En la primera etapa se realiza la  planificación  (anteproyecto)  y diseño, donde entregamos los planos constructivos que contengan la información necesaria gráfica y escrita indispensable para el correcto cumplimiento de la obra.</p>
+            <p>Una vez definidos los planos, se identifica y se le da seguimiento estructurado a los planos constructivos y especificaciones técnicas que cumplan con reglamentos vigentes de la construcción.</p>
+            <p>Después pasamos a la etapa de presupuesto, donde se definen los alcances y se realiza un análisis de valor de acuerdo a los planos predeterminados por el cliente en la parte de diseño.</p>
+            <p>Una vez aprobado el presupuesto y flujo financiero por el cliente, pasamos a la etapa de construcción.</p>
+      	</div>
+      </div>
+      <div id="con" style="display:none;">
+      	<div class="s-div">
+      		<img src="images/div-s.png" width="1 0" height="400" />
+      	</div>
+      	<div class="ss-texto">
+    		<p><strong>CONSTRUCCI&Oacute;N</strong></p>
+      		<p>Seguimos un estricto plan de trabajo para garantizar que la obra sea ejecutada en tiempo y calidad.</p>
+            <p><strong>Finalizar Proyectos en Tiempo y Forma:</strong></p>
+            <ul>
+            	<li>Seguimiento del cronograma de ejecución (Schedule).</li>
+            	<li>Administramos órdenes de cambio responsablemente.</li>
+            	<li>Reuniones semanales en los proyectos.</li>
+            	<li>Pronosticando imprevistos que puedan retrasar el proyecto.</li>
+            </ul>
+            <p><strong>Project Management:</strong></p>
+            <ul>
+            	<li>Planificación, organizamos y administración recursos para cumplir con los flujo de cajas financiero.</li>
+            	<li>Pronosticamos imprevistos y  futuros problemas que puedan afectar el costo.</li>
+            	<li>Comunicación entre obras y oficina (RFI's).</li>
+            	<li>Elaboración y revisión de presupuestos detallados.</li>
+            	<li>"Value engineering" para la satisfacción de nuestro cliente.</li>
+            </ul>
+      	</div>
+      </div>
+    </div>
+    <div class="div-pie">
+    	<span class="pie"><a href="index.html" class="mf">inicio</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="perfil.html" class="mf">perfil</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="servicios.html" class="mf">servicios</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="proyectos.html" class="mf">proyectos</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="desarrollo.html" class="mf">desarrollo</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="contactenos.html" class="mf">contáctenos</a><br>Copyright © Roger Valerio y Asociados</span>
+    </div>
+</div>
+</body>
+</html>

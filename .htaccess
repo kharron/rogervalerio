@@ -1,12 +1,31 @@
+# Begin hotlink protection #
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://rogervalerio.net/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.rogervalerio.net/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://rogervalerionet.ipage.com/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.rogervalerionet.ipage.com/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.rogervalerio.net/manage/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://rogervalerio.net/manage/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://rogervalerio.net/manage/wp-admin/.*$ [NC]
+RewriteRule .(gif|jpg|png)$ - [F]
+# End hotlink protection #
+
+
+DirectoryIndex index.php
+
+
+
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /rogervalerio/
+RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /rogervalerio/index.php [L]
+RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+

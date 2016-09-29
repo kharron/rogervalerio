@@ -1,0 +1,194 @@
+20140922T173208: rogervalerio.net/email.php
+2014-09-22 17:32:08 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20140922T173209: rogervalerio.net/email.php
+2014-09-22 17:32:09 setrlimit(RLIMIT_NPROC) failed: Operation not permitted
+
+20150922T160450: rogervalerio.net/email.php
+2015-09-22 16:04:50 1ZeTo2-0001mb-4O Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-09-22 16:04:50 1ZeTo2-0001mb-4O Failed to create spool file /var/spool/exim4/input//1ZeTo2-0001mb-4O-D: Permission denied
+2015-09-22 16:04:50 1ZeTo2-0001mb-4O Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20150922T160450: rogervalerio.net/email.php
+2015-09-22 16:04:50 1ZeTo2-0001nV-OL Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-09-22 16:04:50 1ZeTo2-0001nV-OL Failed to create spool file /var/spool/exim4/input//1ZeTo2-0001nV-OL-D: Permission denied
+2015-09-22 16:04:50 1ZeTo2-0001nV-OL Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151019T222649: rogervalerio.net/email.php
+2015-10-19 22:26:49 1ZoMdV-0004Hb-NB Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-10-19 22:26:49 1ZoMdV-0004Hb-NB Failed to create spool file /var/spool/exim4/input//1ZoMdV-0004Hb-NB-D: Permission denied
+2015-10-19 22:26:49 1ZoMdV-0004Hb-NB Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151019T222655: rogervalerio.net/email.php
+2015-10-19 22:26:55 1ZoMdb-0004QW-FQ Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-10-19 22:26:55 1ZoMdb-0004QW-FQ Failed to create spool file /var/spool/exim4/input//1ZoMdb-0004QW-FQ-D: Permission denied
+2015-10-19 22:26:55 1ZoMdb-0004QW-FQ Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20151019T222705: rogervalerio.net/email.php
+2015-10-19 22:27:05 1ZoMdl-0004V5-Tf Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2015-10-19 22:27:05 1ZoMdl-0004V5-Tf Failed to create spool file /var/spool/exim4/input//1ZoMdl-0004V5-Tf-D: Permission denied
+2015-10-19 22:27:05 1ZoMdl-0004V5-Tf Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20160609T133332: rogervalerio.net/email.php
+2016-06-09 13:33:32 1bB3pk-000AAV-SZ Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2016-06-09 13:33:32 1bB3pk-000AAV-SZ Failed to create spool file /var/spool/exim4/input//1bB3pk-000AAV-SZ-D: Permission denied
+2016-06-09 13:33:32 1bB3pk-000AAV-SZ Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20160609T133333: rogervalerio.net/email.php
+2016-06-09 13:33:33 1bB3pl-000AAt-9k Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2016-06-09 13:33:33 1bB3pl-000AAt-9k Failed to create spool file /var/spool/exim4/input//1bB3pl-000AAt-9k-D: Permission denied
+2016-06-09 13:33:33 1bB3pl-000AAt-9k Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20160613T170400: rogervalerio.net/email.php
+2016-06-13 17:04:00 1bCZ1c-0008jc-SN Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2016-06-13 17:04:00 1bCZ1c-0008jc-SN Failed to create spool file /var/spool/exim4/input//1bCZ1c-0008jc-SN-D: Permission denied
+2016-06-13 17:04:00 1bCZ1c-0008jc-SN Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20160613T170401: rogervalerio.net/email.php
+2016-06-13 17:04:01 1bCZ1d-0008jt-7K Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2016-06-13 17:04:01 1bCZ1d-0008jt-7K Failed to create spool file /var/spool/exim4/input//1bCZ1d-0008jt-7K-D: Permission denied
+2016-06-13 17:04:01 1bCZ1d-0008jt-7K Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20160619T001324: rogervalerio.net/email.php
+2016-06-19 00:13:24 1bEU6u-000Bzb-HL Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2016-06-19 00:13:24 1bEU6u-000Bzb-HL Failed to create spool file /var/spool/exim4/input//1bEU6u-000Bzb-HL-D: Permission denied
+2016-06-19 00:13:24 1bEU6u-000Bzb-HL Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20160619T001325: rogervalerio.net/email.php
+2016-06-19 00:13:25 1bEU6v-000Bzj-Qe Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2016-06-19 00:13:25 1bEU6v-000Bzj-Qe Failed to create spool file /var/spool/exim4/input//1bEU6v-000Bzj-Qe-D: Permission denied
+2016-06-19 00:13:25 1bEU6v-000Bzj-Qe Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20160822T111008: rogervalerio.net/email.php
+2016-08-22 11:10:08 1bbqrY-0003z7-CF Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2016-08-22 11:10:08 1bbqrY-0003z7-CF Failed to create spool file /var/spool/exim4/input//1bbqrY-0003z7-CF-D: Permission denied
+2016-08-22 11:10:08 1bbqrY-0003z7-CF Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20160822T111008: rogervalerio.net/email.php
+2016-08-22 11:10:08 1bbqrY-0003zD-Lr Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+2016-08-22 11:10:08 1bbqrY-0003zD-Lr Failed to create spool file /var/spool/exim4/input//1bbqrY-0003zD-Lr-D: Permission denied
+2016-08-22 11:10:08 1bbqrY-0003zD-Lr Cannot open main log file "/var/log/exim4/mainlog": Permission denied: euid=999 egid=115
+exim: could not open panic log - aborting: see message(s) above
+
+20160904T094401: rogervalerio.net/getSite.php
+--2016-09-04 09:28:39--  http://rogervalerio.senorcoders.com/rogersite.tgz
+Resolving rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)... 107.170.219.63
+Connecting to rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)|107.170.219.63|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 158803791 (151M) [application/x-gzip]
+Saving to: `rogersite.tgz'
+
+     0K .......... .......... .......... .......... ..........  0%  263K 9m50s
+    50K .......... .......... .......... .
+20160904T094901: rogervalerio.net/getSite.php
+--2016-09-04 09:33:39--  http://rogervalerio.senorcoders.com/rogersite.tgz
+Resolving rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)... 107.170.219.63
+Connecting to rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)|107.170.219.63|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 158803791 (151M) [application/x-gzip]
+Saving to: `rogersite.tgz.1'
+
+     0K .......... .......... .......... .......... ..........  0%  238K 10m51s
+    50K .......... .......... .........
+20160904T095401: rogervalerio.net/getSite.php
+--2016-09-04 09:38:44--  http://rogervalerio.senorcoders.com/rogersite.tgz
+Resolving rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)... 107.170.219.63
+Connecting to rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)|107.170.219.63|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 158803791 (151M) [application/x-gzip]
+Saving to: `rogersite.tgz.2'
+
+     0K .......... .......... .......... .......... ..........  0%  238K 10m51s
+    50K .......... .......... .........
+20160904T095901: rogervalerio.net/getSite.php
+--2016-09-04 09:43:39--  http://rogervalerio.senorcoders.com/rogersite.tgz
+Resolving rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)... 107.170.219.63
+Connecting to rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)|107.170.219.63|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 158803791 (151M) [application/x-gzip]
+Saving to: `rogersite.tgz.3'
+
+     0K .......... .......... .......... .......... ..........  0%  238K 10m52s
+    50K .......... .......... .........
+20160904T100901: rogervalerio.net/getSite.php
+--2016-09-04 09:53:40--  http://rogervalerio.senorcoders.com/rogersite.tgz
+Resolving rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)... 107.170.219.63
+Connecting to rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)|107.170.219.63|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 158803791 (151M) [application/x-gzip]
+Saving to: `rogersite.tgz.5'
+
+     0K .......... .......... .......... .......... ..........  0%  238K 10m50s
+    50K .......... .......... .........
+20160904T100901: rogervalerio.net/getSite.php
+--2016-09-04 09:53:40--  http://rogervalerio.senorcoders.com/rogersite.tgz
+Resolving rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)... 107.170.219.63
+Connecting to rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)|107.170.219.63|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 158803791 (151M) [application/x-gzip]
+Saving to: `rogersite.tgz.5'
+
+     0K .......... .......... .......... .......... ..........  0%  239K 10m48s
+    50K .......... .......... .........
+20160904T101401: rogervalerio.net/getSite.php
+--2016-09-04 09:58:42--  http://rogervalerio.senorcoders.com/rogersite.tgz
+Resolving rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)... 107.170.219.63
+Connecting to rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)|107.170.219.63|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 158803791 (151M) [application/x-gzip]
+Saving to: `rogersite.tgz.6'
+
+     0K .......... .......... .......... .......... ..........  0%  358K 7m14s
+    50K .......... .......... ..........
+20160904T102135: rogervalerio.net/getSite.php
+--2016-09-04 10:21:31--  http://rogervalerio.senorcoders.com/rogersite.tgz
+Resolving rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)... 107.170.219.63
+Connecting to rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)|107.170.219.63|:80... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 158803791 (151M), 28312083 (27M) remaining [application/x-gzip]
+Saving to: `rogersite.tgz'
+
+        [ skipping 127400K ]
+127400K ,,,,,,,,,, ,,,,,,,,,, ,,,,,,,,,, ,,,....... .
+20160904T102201: rogervalerio.net/getSite.php
+--2016-09-04 10:06:31--  http://rogervalerio.senorcoders.com/rogersite.tgz
+Resolving rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)... 107.170.219.63
+Connecting to rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)|107.170.219.63|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 158803791 (151M) [application/x-gzip]
+Saving to: `rogersite.tgz'
+
+     0K .......... .......... .......... .......... ..........  0%  239K 10m49s
+    50K .......... .......... .......... 
+20160904T102701: rogervalerio.net/getSite.php
+--2016-09-04 10:11:33--  http://rogervalerio.senorcoders.com/rogersite.tgz
+Resolving rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)... 107.170.219.63
+Connecting to rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)|107.170.219.63|:80... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 158803791 (151M), 115406094 (110M) remaining [application/x-gzip]
+Saving to: `rogersite.tgz'
+
+        [ skipping 42350K ]
+ 42350K ,,,,,,,,,, ,,,,,,,,,, ,,,,,,,,,, .......... 
+20160904T103201: rogervalerio.net/getSite.php
+--2016-09-04 10:16:35--  http://rogervalerio.senorcoders.com/rogersite.tgz
+Resolving rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)... 107.170.219.63
+Connecting to rogervalerio.senorcoders.com (rogervalerio.senorcoders.com)|107.170.219.63|:80... connected.
+HTTP request sent, awaiting response... 206 Partial Content
+Length: 158803791 (151M), 71934157 (69M) remaining [application/x-gzip]
+Saving to: `rogersite.tgz'
+
+        [ skipping 84800K ]
+ 84800K ,,,,,,,,,, ,,,,,,,,,, ,,,,,,,,,, ,,,....... ..

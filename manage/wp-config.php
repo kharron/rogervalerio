@@ -23,19 +23,22 @@
 define('DB_NAME', 'rogervalerio');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'rfdbnas_1');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'helium');
+define('DB_PASSWORD', 'HeliumTemp8917');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'rogervalerionet.ipagemysql.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+
+define('WP_HOME','http://rogervalerio.net/manage');
+define('WP_SITEURL','http://rogervalerio.net/manage');
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -68,8 +71,8 @@ $table_prefix  = 'wp_';
 /**
  * Change the Domain Below
  **/
-define('WP_HOME','http://localhost/rogervalerio/manage/');
-define('WP_SITEURL','http://localhost/rogervalerio/manage/');
+//define('WP_HOME','http://localhost/rogervalerio/manage/');
+//define('WP_SITEURL','http://localhost/rogervalerio/manage/');
 
 /**
  * For developers: WordPress debugging mode.

@@ -170,10 +170,10 @@ $(document).ready(function() {
     //SECTION IMAGE BACKGROUND
     function sectionimage(anchorLink, index){
         //ABOUT
-        if (index == 3){
+        if (index == 2){
             $("#left2").vegas({
                 slides: [
-                { src:  "./img/bg-images/team.jpg"  },
+                { src:  background_arquitectura_left },
                 ],
                 delay: 7000,
                 cover:false,
@@ -183,7 +183,7 @@ $(document).ready(function() {
             });
             $("#right2").vegas({
                 slides: [
-                { src: "./img/bg-images/team-rt.jpg" },
+                { src: background_profile_right },
                 ],
                 delay: 7000,
                 cover:false,
@@ -193,10 +193,10 @@ $(document).ready(function() {
             });
         }
         //DESIGN
-        if (index == 2){
+        if (index == 3){
             $("#left3").vegas({
                 slides: [
-                { src: "./img/designs/design-4.jpg" },
+                { src:  background_profile_left },
                 ],
                 delay: 7000,
                 cover:false,
@@ -206,7 +206,7 @@ $(document).ready(function() {
             });
             $("#right3").vegas({
                 slides: [
-                { src: "./img/designs/design-4.jpg" },
+                { src: background_arquitectura_right },
                 ],
                 delay: 7000,
                 cover:false,
@@ -219,10 +219,7 @@ $(document).ready(function() {
         if (index == 5){
             $("#left5").vegas({
                 slides: [
-                  { src: "./img/designs/design-1.jpg" },//MAIN BACKGROUND
-                  { src: "./img/designs/design-5.jpg" },//PROJECT 1
-                  { src: "./img/background-left.jpg" },//PROJECT 2
-                  { src: "./img/background-left.jpg" } //PROJECT 3
+                   { src: background_development_left },
                 ],
                 delay: 7000,
                 cover:false,
@@ -233,10 +230,7 @@ $(document).ready(function() {
             });
             $("#right5").vegas({
                 slides: [
-                { src: "./img/background-right.jpg" },//MAIN BACKGROUND
-                { src: "./img/background-right.jpg" },//PROJECT 1
-                { src: "./img/background-right.jpg" },//PROJECT 2
-                { src: "./img/background-right.jpg" } //PROJECT 3
+               { src: background_development_right },
                 ],
                 delay: 7000,
                 cover:false,
@@ -246,11 +240,11 @@ $(document).ready(function() {
                 animation: [ 'kenburns' ]
             });
         }
-        //PROYECTOS
+     
         if (index == 4){
             $("#left4").vegas({
                 slides: [
-                  { src: "./img/construction.jpg" },
+                  { src: background_construccion_left },
                 ],
                 delay: 7000,
                 cover:false,
@@ -260,7 +254,7 @@ $(document).ready(function() {
             });
             $("#right4").vegas({
                 slides: [
-                { src: "./img/construction.jpg" },
+                { src: background_construccion_right },
                 ],
                 delay: 7000,
                 cover:false,
@@ -296,7 +290,7 @@ $(document).ready(function() {
          if (index == 7){
             $("#left7").vegas({
                 slides: [
-                  { src: "./img/background-left.jpg" },
+                  { src: background_contact_left },
                 ],
                 delay: 7000,
                 cover:false,
@@ -306,7 +300,7 @@ $(document).ready(function() {
             });
             $("#right7").vegas({
                 slides: [
-                { src: "./img/background-right.jpg" },
+                { src: background_contact_right },
                 ],
                 delay: 7000,
                 cover:false,
@@ -372,7 +366,7 @@ $(document).ready(function() {
 
     //BIGTEXT
     $('.home-name').bigtext({
-        maxfontsize: 115
+        maxfontsize: 85
     });
     $('.home-sub-a').bigtext({
         maxfontsize: 85

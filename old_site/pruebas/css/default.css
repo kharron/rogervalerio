@@ -1,0 +1,259 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #333333;
+	margin-top: 10px;
+}
+
+.logo {
+	float:left;
+	width:334px;
+	height:120px;
+	margin-left:300px;
+	margin-top:-5px;
+}
+
+.banner {
+	float:left;
+	width:350px;
+	height:160px;
+	margin-left:-100px;
+	margin-top:30px;
+}
+
+.div-menu {
+	float:left;
+	width:400px;
+	height:35px;
+	background-color:#FFFFFF;
+	filter:alpha(opacity=80);
+	opacity:.8;
+	margin-top:-50px;
+	margin-left:490px;
+}
+
+.div-pie {
+	 width:900px;
+	 height:30px;
+	 text-align:right;
+	 padding-top:10px;
+}
+
+.infotxt {
+	background-image:url(../images/fondo1.jpg);
+	height: 695px;
+	width: 900px;
+}
+
+.infotxtc {
+	background-image:url(../images/fondo2.jpg);
+	height: 600px;
+	width: 900px;
+}
+
+.texto {
+	 float:left;
+	 width:520px;
+	 height:400px;
+	 margin-top:110px;
+	 margin-left:190px;
+}
+
+.s-texto {
+	 float:left;
+	 width:200px;
+	 height:400px;
+	 margin-top:110px;
+	 margin-left:190px;
+}
+
+.s-div {
+	 float:left;
+	 width:10px;
+	 height:400px;
+	 margin-top:110px;
+}
+
+.ss-texto {
+	 float:left;
+	 width:360px;
+	 height:400px;
+	 margin-top:120px;
+	 margin-left:30px;
+}
+
+h1 {
+	color : #72222D;
+	font-family : Arial;
+	font-style : normal;
+	font-variant : normal;
+	font-size : 20px;
+	line-height : normal;
+	text-align : center;
+	text-decoration : none;
+	text-align : justify;
+	display : block;
+	font-weight : bold;	
+}
+
+h2 {
+	color : #72222D;
+	font-family : Arial;
+	font-style : normal;
+	font-variant : normal;
+	font-size : 16px;
+	line-height : normal;
+	text-align : center;
+	text-decoration : none;
+	text-align : justify;
+	display : block;
+	font-weight : bold;
+}
+
+p {
+	color : #666666;
+	font-family : Arial;
+	font-style : normal;
+	font-variant : normal;
+	font-size : 12px;
+	line-height : normal;
+	text-decoration : none;
+	text-align : justify;
+	display : block;
+}
+
+.pp {
+	color : #666666;
+	font-family : Arial;
+	font-style : normal;
+	font-variant : normal;
+	font-size : 14px;
+	line-height : normal;
+	text-decoration : none;
+	text-align : justify;
+	display : block;
+}
+
+li {
+	color : #666666;
+	font-family : Arial;
+	font-style : normal;
+	font-variant : normal;
+	font-size : 12px;
+	line-height : normal;
+	text-align : justify;
+}
+.pie {
+	color : #E2E2E0;
+	font-family : Arial;
+	font-style : normal;
+	font-variant : normal;
+	font-size : 12px;
+	line-height : normal;
+	text-decoration : none;
+}
+
+a.mf:link {
+	color : #E2E2E0;
+	font-family : Arial;
+	font-style : normal;
+	font-variant : normal;
+	font-size : 12px;
+	text-decoration : none;
+}
+a.mf:visited {
+	color : #E2E2E0;
+	font-family : Arial;
+	font-style : normal;
+	font-variant : normal;
+	font-size : 12px;
+	text-decoration : none;
+}
+a.mf:hover {
+	color : #ECB379;
+	font-family : Arial;
+	font-style : normal;
+	font-variant : normal;
+	font-size : 12px;
+	text-decoration : none;
+}
+a.mf:active {
+	color : #E2E2E0;
+	font-family : Arial;
+	font-style : normal;
+	font-variant : normal;
+	font-size : 12px;
+	text-decoration : none;
+}
+
+.menu {
+	color : #000000;
+	font-family : Arial;
+	font-style : normal;
+	font-variant : normal;
+	font-size : 12px;
+	line-height : normal;
+	text-decoration : none;
+	line-height : 35px;
+}
+
+a.ms:link {
+	color : #000000;
+	font-family : Arial;
+	font-style : normal;
+	font-variant : normal;
+	font-size : 12px;
+	text-decoration : none;
+	line-height : 35px;
+	font-weight : bold;
+}
+a.ms:visited {
+	color : #000000;
+	font-family : Arial;
+	font-style : normal;
+	font-variant : normal;
+	font-size : 12px;
+	text-decoration : none;
+	line-height : 35px;
+	font-weight : bold;
+}
+a.ms:hover {
+	color : #72222D;
+	font-family : Arial;
+	font-style : normal;
+	font-variant : normal;
+	font-size : 12px;
+	text-decoration : none;
+	line-height :35px;
+	font-weight : bold;
+}
+a.ms:active {
+	color : #000000;
+	font-family : Arial;
+	font-style : normal;
+	font-variant : normal;
+	font-size : 12px;
+	text-decoration : none;
+	line-height : 35px;
+	font-weight : bold;
+}
+
+label {
+	font-family: Arial;
+   	font-size: 10px;
+   	font-weight: bold;
+   	text-transform: uppercase;
+   	display: block;
+   	margin-bottom: 3px;
+   	clear: both;
+}
+		.ulul {
+        	list-style: none;
+        	padding: 0;
+        	margin: 0;
+      		}
+      	.lili {
+        	margin-bottom: 10px;
+        	clear: both;
+      		}

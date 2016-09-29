@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Roger Valerio - Arquitectura</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <script>
+		array_imagen = new Array(10)
+		array_imagen[0] = new Image(350,160)
+		array_imagen[0].src = "images/banner/a-01.png"
+		array_imagen[1] = new Image(350,160)
+		array_imagen[1].src = "images/banner/a-02.png"
+		array_imagen[2] = new Image(350,160)
+		array_imagen[2].src = "images/banner/a-03.png"
+		array_imagen[3] = new Image(350,160)
+		array_imagen[3].src = "images/banner/a-04.png"
+		array_imagen[4] = new Image(350,160)
+		array_imagen[4].src = "images/banner/a-05.png"
+		array_imagen[5] = new Image(350,160)
+		array_imagen[5].src = "images/banner/a-06.png"
+		array_imagen[6] = new Image(350,160)
+		array_imagen[6].src = "images/banner/a-07.png"
+		array_imagen[7] = new Image(350,160)
+		array_imagen[7].src = "images/banner/a-08.png"
+		array_imagen[8] = new Image(350,160)
+		array_imagen[8].src = "images/banner/a-09.png"
+		array_imagen[9] = new Image(350,160)
+		array_imagen[9].src = "images/banner/a-10.png"
+		contador = 0
+		
+		function alternar_banner(){
+			window.document["banner"].src = array_imagen[contador].src
+			/*window.document.links[0].href = array_url[contador]*/
+			contador ++
+			contador = contador % array_imagen.length
+			setTimeout("alternar_banner()",3000)
+		}
+	</script>
+    <link rel="stylesheet" type="text/css" href="galerias/shadowbox.css">
+	<script type="text/javascript" src="galerias/shadowbox.js"></script>
+	<script type="text/javascript">
+		Shadowbox.init({
+			// a darker overlay looks better on this particular site
+			overlayOpacity: 0.8
+			// setupDemos is defined in assets/demo.js
+			});
+    </script>
+</head>
+
+<body onload="alternar_banner();">
+<!-- saved from url=(0013)about:internet -->
+<div align="center">
+	<div style="width:900px; height:120px;">
+		<div class="banner">
+			<img src="#" name="banner"/>
+		</div>
+		<div class="logo">
+    		<img src="images/logo.png" width="334" height="120" />
+    	</div>
+    </div>
+	<div class="infotxt">
+    	<div class="div-menu">
+        	<span class="menu"><a href="index.html" class="ms">inicio</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="perfil.html" class="ms">perfil</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="servicios.html" class="ms">servicios</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="proyectos.html" class="ms">proyectos</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="desarrollo.html" class="ms">desarrollo</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="contactenos.html" class="ms">contáctenos</a></span>
+        </div>
+    	<div class="texto">
+        	<h1>PROYECTO - CVM 012</h1>
+            <div>
+       	    	<a href="images/proyectos/01/01.jpg" rel="shadowbox[Galeria]" class="mf"><img src="images/proyectos/01/01t.jpg" width="120" height="80" border="1" style="padding:10px;"/></a>
+                <a href="images/proyectos/01/02.jpg" rel="shadowbox[Galeria]" class="mf"><img src="images/proyectos/01/02t.jpg" width="120" height="80" border="1" style="padding:10px;"/></a>
+                <a href="images/proyectos/01/03.jpg" rel="shadowbox[Galeria]" class="mf"><img src="images/proyectos/01/03t.jpg" width="120" height="80" border="1" style="padding:10px;"/></a>
+                <a href="images/proyectos/01/04.jpg" rel="shadowbox[Galeria]" class="mf"><img src="images/proyectos/01/04t.jpg" width="120" height="80" border="1" style="padding:10px;"/></a>
+                <a href="images/proyectos/01/05.jpg" rel="shadowbox[Galeria]" class="mf"><img src="images/proyectos/01/05t.jpg" width="120" height="80" border="1" style="padding:10px;"/></a>
+                <a href="images/proyectos/01/06.jpg" rel="shadowbox[Galeria]" class="mf"><img src="images/proyectos/01/06t.jpg" width="120" height="80" border="1" style="padding:10px;"/></a>
+                <a href="images/proyectos/01/07.jpg" rel="shadowbox[Galeria]" class="mf"><img src="images/proyectos/01/07t.jpg" width="120" height="80" border="1" style="padding:10px;"/></a>
+                <a href="images/proyectos/01/08.jpg" rel="shadowbox[Galeria]" class="mf"><img src="images/proyectos/01/08t.jpg" width="120" height="80" border="1" style="padding:10px;"/></a>
+                <a href="images/proyectos/01/09.jpg" rel="shadowbox[Galeria]" class="mf"><img src="images/proyectos/01/09t.jpg" width="120" height="80" border="1" style="padding:10px;"/></a>
+                <a href="images/proyectos/01/10.jpg" rel="shadowbox[Galeria]" class="mf"><img src="images/proyectos/01/10t.jpg" width="120" height="80" border="1" style="padding:10px;"/></a>
+                <a href="images/proyectos/01/11.jpg" rel="shadowbox[Galeria]" class="mf"><img src="images/proyectos/01/11t.jpg" width="120" height="80" border="1" style="padding:10px;"/></a>
+            </div>
+        </div>
+    </div>
+    <div class="div-pie">
+    	<span class="pie"><a href="index.html" class="mf">inicio</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="perfil.html" class="mf">perfil</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="servicios.html" class="mf">servicios</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="proyectos.html" class="mf">proyectos</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="desarrollo.html" class="mf">desarrollo</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="contactenos.html" class="mf">contáctenos</a><br>Copyright © Roger Valerio y Asociados</span>
+    </div>
+</div>
+</body>
+</html>

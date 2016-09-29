@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Roger Valerio - Arquitectura</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <script>
+		array_imagen = new Array(10)
+		array_imagen[0] = new Image(350,160)
+		array_imagen[0].src = "images/banner/a-01.png"
+		array_imagen[1] = new Image(350,160)
+		array_imagen[1].src = "images/banner/a-02.png"
+		array_imagen[2] = new Image(350,160)
+		array_imagen[2].src = "images/banner/a-03.png"
+		array_imagen[3] = new Image(350,160)
+		array_imagen[3].src = "images/banner/a-04.png"
+		array_imagen[4] = new Image(350,160)
+		array_imagen[4].src = "images/banner/a-05.png"
+		array_imagen[5] = new Image(350,160)
+		array_imagen[5].src = "images/banner/a-06.png"
+		array_imagen[6] = new Image(350,160)
+		array_imagen[6].src = "images/banner/a-07.png"
+		array_imagen[7] = new Image(350,160)
+		array_imagen[7].src = "images/banner/a-08.png"
+		array_imagen[8] = new Image(350,160)
+		array_imagen[8].src = "images/banner/a-09.png"
+		array_imagen[9] = new Image(350,160)
+		array_imagen[9].src = "images/banner/a-10.png"
+		contador = 0
+		
+		function alternar_banner(){
+			window.document["banner"].src = array_imagen[contador].src
+			/*window.document.links[0].href = array_url[contador]*/
+			contador ++
+			contador = contador % array_imagen.length
+			setTimeout("alternar_banner()",3000)
+		}
+	</script>
+</head>
+
+<body onload="alternar_banner();">
+<!-- saved from url=(0013)about:internet -->
+<div align="center">
+	<div style="width:900px; height:120px;">
+		<div class="banner">
+			<img src="#" name="banner"/>
+		</div>
+		<div class="logo">
+    		<img src="images/logo.png" width="334" height="120" />
+    	</div>
+    </div>
+	<div class="infotxt">
+    	<div class="div-menu">
+        	<span class="menu"><a href="index.html" class="ms">inicio</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="perfil.html" class="ms">perfil</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="servicios.html" class="ms">servicios</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="proyectos.html" class="ms">proyectos</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="desarrollo.html" class="ms">desarrollo</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="contactenos.html" class="ms">contáctenos</a></span>
+        </div>
+    	<div class="texto">
+        	<h1>NUESTRO PERFIL</h1>
+            <p>Por un poco más de dos décadas Roger Valerio Arquitectura ha estado brindando soluciones Arquitectónicas y de diseño de interiores a prestigiosos clientes en el sector hotelero, comercial, residencial, industrial en Guatemala y Nicaragua.</p>
+            <p>Nuestro perfil se extiende más allá de la típica firma de arquitectura. Hemos evolucionado a ser una firma de Diseño-Construcción en la cual la Arquitectura y la construcción pueden ejecutarse  bajo el mismo contrato agilizando la ejecución de la obra.  Ofrecemos diferentes servicios en el sector de la construcción que abarcan desde la planificación, diseño, construcción, supervisión, y administración de proyectos, lo cual nos permite ajustarnos económicamente a las necesidades de nuestros clientes.</p>
+            <p>Nuestra firma cuenta con un equipo de Arquitectos, ingenieros, y administradores de proyectos con un amplio conocimiento en la industria.</p>
+            <h2>MISIÓN</h2>
+            <p>La misión principal de Roger Valerio Arquitectura es diseñar y construir proyectos de manera organizada, segura, y en el tiempo planificado. En nuestra compañía la calidad de nuestro trabajo y la satisfacción de nuestro cliente vienen primero.</p>
+        </div>
+    </div>
+    <div class="div-pie">
+    	<span class="pie"><a href="index.html" class="mf">inicio</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="perfil.html" class="mf">perfil</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="servicios.html" class="mf">servicios</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="proyectos.html" class="mf">proyectos</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="desarrollo.html" class="mf">desarrollo</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="contactenos.html" class="mf">contáctenos</a><br>Copyright © Roger Valerio y Asociados</span>
+    </div>
+</div>
+</body>
+</html>

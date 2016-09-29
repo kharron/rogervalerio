@@ -838,3 +838,6 @@ img.alignleft {
 		width: calc(50% - 289px);
 	}
 }
+div#postdivrich.postarea{
+display:none !important;
+}

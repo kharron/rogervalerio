@@ -224,7 +224,7 @@ body > .skiptranslate {
 
 .loader-frame {
 
-	 width: 270px;
+   width: 270px;
     height: auto;
   margin: 0 auto;
     border: 6px solid #FEECB3;
@@ -439,10 +439,10 @@ body > .skiptranslate {
 .home-name {
 
     color: #3D3838;
-    font-size: 115px;
+    font-size: 75px;
     font-weight: 300;
     letter-spacing: 10px;
-    text-align: right;
+    text-align: left;
     line-height: 0.8;
     margin: 0 auto 40px;
 
@@ -455,12 +455,17 @@ body > .skiptranslate {
     letter-spacing: 7px;
     line-height: 0.8;
     text-align: right;
+    
 }
 
+	.home-sub-a span{
+
+		font-size: 115px !important;
+	}
 .home-sub-b {
 
     color: rgb(166, 171, 167);
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 400;
     letter-spacing: 5px;
     margin-top: 35px;
@@ -654,13 +659,15 @@ body > .skiptranslate {
 
 #home-carousel {
 
-    cursor:url(../img/grab.png) 8 8, move;
+  /*  cursor:url(../img/grab.png) 8 8, move; */
+  cursor: default;
 
 }
 
 .grabbing { 
 
-    cursor:url(../img/grabbing.png) 8 8, move !important;
+ /*   cursor:url(../img/grabbing.png) 8 8, move !important; */
+ cursor: default;
 
 }
 
@@ -1536,7 +1543,19 @@ button[type="submit"]:hover {
   
     }
 
+     .home-sub-a span{
+      font-size: 64px !important;
+
+    }
+
 }
+
+@media (max-width: 548px) {
+.home-sub-a span{
+      font-size: 64px !important;
+
+    }
+  }
 
 @media (min-width: 468px) and (max-width: 1024px){
 
@@ -1545,6 +1564,8 @@ button[type="submit"]:hover {
         font-size: 55px !important;
   
     }
+
+
 
 }
 
@@ -1583,3 +1604,18 @@ button[type="submit"]:hover {
     color: #474444;
 }
 
+
+.next_link, .page_link, .previous_link{
+
+  padding: 5px;
+}
+
+.active_page{
+  background: rgb(210, 215, 211);
+}
+
+
+.project_pagination{
+
+  margin-bottom: 20px;
+}

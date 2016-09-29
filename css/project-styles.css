@@ -2,3 +2,15 @@
     margin: 25px 0 25px 60px !important;
     width: 200px;
 }
+
+.home-sub-b{
+	font-size: 25px !important;
+
+}
+.page-numbers {
+    padding: 10px 5px !important;
+}
+span.page-numbers.current {
+    padding: 10px 5px !important;
+    background-color: #d2d7d3 !important;
+}
